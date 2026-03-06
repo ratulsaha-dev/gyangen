@@ -9,7 +9,7 @@
 <p>Building a technically strong and future-ready India.</p>
 
 <p>📞 9832127575</p>
-<p>📧 ops@gyangen.com</p>
+<p href ="mailto:ops@gyangen.com">📧 ops@gyangen.com</p>
 <p>📍 HSR Layout, Bangalore</p>
 
 <div class="social-icons">
