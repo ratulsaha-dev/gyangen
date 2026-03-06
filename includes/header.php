@@ -7,7 +7,7 @@
 
 <title>GyanGen Technologies</title>
 
-<link rel="stylesheet" href="/gyangen/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 
@@ -27,18 +27,18 @@ Gyan<span>Gen</span> Technologies
 
 <nav class="nav-menu">
 
-<a href="/gyangen/index.php">Home</a>
-<a href="/gyangen/courses.php">Courses</a>
-<a href="/gyangen/about.php">About</a>
-<a href="/gyangen/blog.php">Blog</a>
-<a href="/gyangen/contact.php">Contact</a>
+<a href="/index.php">Home</a>
+<a href="/courses.php">Courses</a>
+<a href="/about.php">About</a>
+<a href="/blog.php">Blog</a>
+<a href="/contact.php">Contact</a>
 
 </nav>
 
 <div class="auth-buttons">
 
-<a href="/gyangen/login.php" class="login-btn">Login</a>
-<a href="/gyangen/signup.php" class="signup-btn">Sign Up</a>
+<a href="/login.php" class="login-btn">Login</a>
+<a href="/signup.php" class="signup-btn">Sign Up</a>
 
 <button id="themeToggle" class="theme-btn">
 <i class="fa-solid fa-moon"></i>
