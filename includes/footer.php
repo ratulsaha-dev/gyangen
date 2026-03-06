@@ -70,4 +70,4 @@ style="border:0;">
 
 </footer>
 
-<script src="/gyangen/js/script.js"></script>
+<script src="/js/script.js"></script>
