@@ -48,7 +48,7 @@ Read More
 </section>
 <?php
 
-$api = "https://newsapi.org/v2/everything?q=programming OR AI OR coding&language=en&apiKey=YOUR_API_KEY";
+$api = "https://newsapi.org/v2/everything?q=programming OR AI OR coding&language=en&apiKey=https://newsapi.org/v2/everything?q=apple&from=2026-03-06&to=2026-03-06&sortBy=popularity&apiKey=API_KEY";
 
 $response = file_get_contents($api);
 
