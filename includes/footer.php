@@ -31,11 +31,11 @@
 
 <ul class="quick-links">
 
-<li><a href="about.php">About company</a></li>
+<li><a href="about.php">About Us</a></li>
 <li><a href="policy.php">Privacy & Policies</a></li>
 <li><a href="placement.php">Placement Support</a></li>
-<li><a href="careers.php">Career with us</a></li>
-<li><a href="partnership.php">Partnership</a></li>
+<li><a href="careers.php">Careers</a></li>
+<li><a href="partnership.php">Become a partner</a></li>
 
 </ul>
 

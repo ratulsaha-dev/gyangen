@@ -191,3 +191,95 @@ document.onkeydown = function(e) {
     return false;
   }
 };
+
+/* REPRESENTATIVE POPUP CONTROL */
+
+document.addEventListener("DOMContentLoaded", function(){
+
+const popup = document.getElementById("repPopup");
+const closeBtn = document.querySelector(".rep-close");
+
+if(!popup) return;
+
+let today = new Date().toDateString();
+
+let popupData = JSON.parse(localStorage.getItem("repPopupData")) || {
+date: today,
+count: 0
+};
+
+/* reset counter if new day */
+
+if(popupData.date !== today){
+popupData.date = today;
+popupData.count = 0;
+}
+
+/* show popup max 4 times per day */
+
+if(popupData.count < 4){
+
+setTimeout(() => {
+popup.style.display = "flex";
+}, 1500);
+
+popupData.count++;
+
+localStorage.setItem("repPopupData", JSON.stringify(popupData));
+
+}
+
+/* close popup */
+
+closeBtn.addEventListener("click", () => {
+popup.style.display = "none";
+});
+
+});
+
+const modal = document.getElementById("courseModal");
+
+document.querySelectorAll(".btn-details").forEach(btn => {
+
+btn.addEventListener("click", () => {
+
+modal.style.display = "flex";
+
+});
+
+});
+
+document.querySelector(".close-modal").onclick = function(){
+
+modal.style.display = "none";
+
+}
+
+window.onclick = function(event){
+
+if(event.target == modal){
+modal.style.display = "none";
+}
+
+}
+
+const repPopup = document.getElementById("repPopup");
+const repClose = document.querySelector(".rep-close");
+
+window.onload = function(){
+
+setTimeout(()=>{
+repPopup.style.display = "flex";
+},2000);
+
+}
+
+repClose.onclick = function(){
+repPopup.style.display = "none";
+}
+
+window.onclick = function(e){
+if(e.target === repPopup){
+repPopup.style.display = "none";
+}
+}

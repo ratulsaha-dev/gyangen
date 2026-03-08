@@ -8,30 +8,97 @@
 <link rel="stylesheet" href="css/style.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
 
+<!-- Campus Representative Popup -->
+
+<div id="repPopup" class="rep-popup">
+
+<div class="rep-popup-content">
+
+<span class="rep-close">&times;</span>
+
+<div class="rep-left">
+
+<h2>Join as a Campus Representative</h2>
+
+<p>
+Become the face of <strong>GyanGen Technologies</strong> in your campus and help students discover industry-focused technology programs.
+</p>
+
+<div class="rep-benefits">
+
+<div class="rep-item">
+<i class="fas fa-gift"></i>
+<span>Incentive Gifts</span>
+</div>
+
+<div class="rep-item">
+<i class="fas fa-money-bill-wave"></i>
+<span>Performance Rewards</span>
+</div>
+
+<div class="rep-item">
+<i class="fas fa-user-graduate"></i>
+<span>Leadership Experience</span>
+</div>
+
+<div class="rep-item">
+<i class="fas fa-network-wired"></i>
+<span>Professional Network</span>
+</div>
+
+</div>
+
+<a href="partnership.php" class="rep-btn">
+Apply Now
+</a>
+
+</div>
+
+
+<div class="rep-right">
+
+<i class="fas fa-users"></i>
+
+<h3>Build Your Tech Community</h3>
+
+<p>
+Help students explore technology careers and grow your own leadership skills.
+</p>
+
+</div>
+
+</div>
+
+</div>
+<!-- HEADER -->
+
 <?php include 'includes/header.php'; ?>
+
+
+<!-- HERO SECTION -->
 
 <section class="hero">
 
 <h1 class="main-text">
-
 <span id="mainText"></span>
 <span class="cursor">|</span>
-
 </h1>
 
 <h2 class="sub-text">
-
 Want to Become a <span id="roleText"></span>
-
 </h2>
 
 </section>
 
+
+<!-- COURSES SECTION -->
 
 <section class="courses">
 
@@ -61,7 +128,12 @@ Learn core Java, OOP concepts, and backend development fundamentals.
 
 <div class="course-buttons">
 
-<button class="btn-details">View Details</button>
+<button class="btn-details"
+data-title="Java Development"
+data-desc="Master Java programming, OOP, backend APIs, and real-world projects.">
+View Details
+</button>
+
 <button class="btn-demo">Book Demo</button>
 <button class="btn-seat">Reserve Seat</button>
 
@@ -81,7 +153,7 @@ Learn core Java, OOP concepts, and backend development fundamentals.
 <h3>Python Programming</h3>
 
 <p class="course-desc">
-Master Python fundamentals for automation, data, and backend development.
+Master Python fundamentals for automation, data science, and backend development.
 </p>
 
 <div class="course-meta">
@@ -91,7 +163,12 @@ Master Python fundamentals for automation, data, and backend development.
 
 <div class="course-buttons">
 
-<button class="btn-details">View Details</button>
+<button class="btn-details"
+data-title="Python Programming"
+data-desc="Learn Python programming, automation, data analysis, and real-world projects.">
+View Details
+</button>
+
 <button class="btn-demo">Book Demo</button>
 <button class="btn-seat">Reserve Seat</button>
 
@@ -121,7 +198,12 @@ Build AI applications using LLMs, prompt engineering, and AI frameworks.
 
 <div class="course-buttons">
 
-<button class="btn-details">View Details</button>
+<button class="btn-details"
+data-title="GenAI Engineering"
+data-desc="Learn prompt engineering, LLM development, AI tools, and build real GenAI applications.">
+View Details
+</button>
+
 <button class="btn-demo">Book Demo</button>
 <button class="btn-seat">Reserve Seat</button>
 
@@ -151,7 +233,12 @@ Build modern interactive web applications using React and modern UI tools.
 
 <div class="course-buttons">
 
-<button class="btn-details">View Details</button>
+<button class="btn-details"
+data-title="ReactJS Development"
+data-desc="Learn ReactJS, modern UI frameworks, APIs, and frontend development projects.">
+View Details
+</button>
+
 <button class="btn-demo">Book Demo</button>
 <button class="btn-seat">Reserve Seat</button>
 
@@ -181,7 +268,12 @@ Learn SQL, Python, and visualization tools used by modern data analysts.
 
 <div class="course-buttons">
 
-<button class="btn-details">View Details</button>
+<button class="btn-details"
+data-title="Data Analytics"
+data-desc="Learn SQL, Python, Excel, and data visualization tools used in analytics careers.">
+View Details
+</button>
+
 <button class="btn-demo">Book Demo</button>
 <button class="btn-seat">Reserve Seat</button>
 
@@ -211,7 +303,12 @@ Understand relational databases, SQL queries, and backend data systems.
 
 <div class="course-buttons">
 
-<button class="btn-details">View Details</button>
+<button class="btn-details"
+data-title="SQL & Databases"
+data-desc="Learn database fundamentals, SQL queries, joins, and backend data management.">
+View Details
+</button>
+
 <button class="btn-demo">Book Demo</button>
 <button class="btn-seat">Reserve Seat</button>
 
@@ -225,7 +322,35 @@ Understand relational databases, SQL queries, and backend data systems.
 </section>
 
 
+<!-- COURSE MODAL -->
+
+<div id="courseModal" class="course-modal">
+
+<div class="course-modal-content">
+
+<span class="close-modal">&times;</span>
+
+<h2 id="modalTitle"></h2>
+
+<p id="modalDescription"></p>
+
+<div class="modal-footer">
+
+<button class="demo-btn">Book Demo Class</button>
+
+<button class="enroll-btn">Reserve Your Seat</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- FOOTER -->
+
 <?php include 'includes/footer.php'; ?>
+
 
 <script src="js/script.js"></script>
 
