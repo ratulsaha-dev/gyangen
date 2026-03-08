@@ -16,6 +16,10 @@
 
 <button type="submit">Login</button>
 
+<p class="login-extra">
+Don't have an account? <a href="signup.php">Sign Up</a>
+</p>
+
 </form>
 
 </div>
