@@ -38,7 +38,7 @@ Gyan<span>Gen</span> Technologies
 <div class="auth-buttons">
 
 <a href="/login.php" class="login-btn">Login</a>
-<a href="/book-demo.php" class="signup-btn">Book a Demo</a>
+<a href="/register.php" class="signup-btn">Book a Demo</a>
 
 <button id="themeToggle" class="theme-btn">
 <i class="fa-solid fa-moon"></i>

@@ -35,7 +35,7 @@
 <li><a href="policy.php">Privacy & Policies</a></li>
 <li><a href="placement.php">Placement Support</a></li>
 <li><a href="careers.php">Careers</a></li>
-<li><a href="partnership.php">Become a partner</a></li>
+<li><a href="register.php">Become a partner</a></li>
 
 </ul>
 

@@ -717,15 +717,15 @@ font-weight:600;
 
 /* Registration */
 
-/* DEMO FORM */
+/* register FORM */
 
-.demo-section{
+.register-section{
 padding:100px 8%;
 display:flex;
 justify-content:center;
 }
 
-.demo-container{
+.register-container{
 width:420px;
 background:white;
 padding:35px;
@@ -733,32 +733,32 @@ border-radius:10px;
 box-shadow:0 10px 25px rgba(0,0,0,0.08);
 }
 
-body.dark-mode .demo-container{
+.register.dark-mode .demo-container{
 background:#1b1b1b;
 }
 
-.demo-logo{
+.register-logo{
 text-align:center;
 margin-bottom:20px;
 }
 
-.demo-logo img{
+.register-logo img{
 width:140px;
 }
 
-.demo-container h2{
+.register-container h2{
 text-align:center;
 margin-bottom:20px;
 }
 
-.demo-container label{
+.register-container label{
 display:block;
 margin-top:12px;
 font-weight:500;
 }
 
-.demo-container input,
-.demo-container select{
+.register-container input,
+.register-container select{
 width:100%;
 padding:10px;
 margin-top:5px;
@@ -766,7 +766,7 @@ border:1px solid #ccc;
 border-radius:6px;
 }
 
-.demo-btn{
+.register-btn{
 width:100%;
 margin-top:20px;
 padding:12px;
@@ -937,16 +937,16 @@ animation:blink 1s infinite;
 }
 
 /* ------------------------- */
-/* BOOK DEMO FORM */
+/* BOOK register FORM */
 /* ------------------------- */
 
-.demo-section{
+.register-section{
 padding:100px 8%;
 display:flex;
 justify-content:center;
 }
 
-.demo-container{
+.register-container{
 width:420px;
 background:white;
 padding:35px;
@@ -954,32 +954,32 @@ border-radius:10px;
 box-shadow:0 10px 25px rgba(0,0,0,0.08);
 }
 
-body.dark-mode .demo-container{
+body.dark-mode .register-container{
 background:#1b1b1b;
 }
 
-.demo-logo{
+.register-logo{
 text-align:center;
 margin-bottom:20px;
 }
 
-.demo-logo img{
+.register-logo img{
 width:140px;
 }
 
-.demo-container h2{
+.register-container h2{
 text-align:center;
 margin-bottom:20px;
 }
 
-.demo-container label{
+.register-container label{
 display:block;
 margin-top:12px;
 font-weight:500;
 }
 
-.demo-container input,
-.demo-container select{
+.register-container input,
+.register-container select{
 width:100%;
 padding:10px;
 margin-top:5px;
@@ -987,14 +987,14 @@ border:1px solid #ccc;
 border-radius:6px;
 }
 
-body.dark-mode .demo-container input,
-body.dark-mode .demo-container select{
+body.dark-mode .register-container input,
+body.dark-mode .register-container select{
 background:#2a2a2a;
 border:1px solid #444;
 color:white;
 }
 
-.demo-btn{
+.register-btn{
 width:100%;
 margin-top:20px;
 padding:12px;
@@ -1006,7 +1006,7 @@ cursor:pointer;
 transition:0.3s;
 }
 
-.demo-btn:hover{
+.register-btn:hover{
 background:#e6c200;
 }
 
@@ -1299,7 +1299,7 @@ gap:15px;
 margin-top:20px;
 }
 
-.demo-btn{
+.register-btn{
 background:#FFD700;
 border:none;
 padding:10px 18px;

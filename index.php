@@ -134,7 +134,7 @@ data-desc="Master Java programming, OOP, backend APIs, and real-world projects."
 View Details
 </button>
 
-<button class="btn-demo">Book Demo</button>
+<button class="btn-regiser">Book Demo</button>
 <button class="btn-seat">Reserve Seat</button>
 
 </div>
@@ -274,7 +274,7 @@ data-desc="Learn SQL, Python, Excel, and data visualization tools used in analyt
 View Details
 </button>
 
-<button class="btn-demo">Book Demo</button>
+<button class="btn-register">Book Demo</button>
 <button class="btn-seat">Reserve Seat</button>
 
 </div>
@@ -309,7 +309,7 @@ data-desc="Learn database fundamentals, SQL queries, joins, and backend data man
 View Details
 </button>
 
-<button class="btn-demo">Book Demo</button>
+<button class="btn-register">Book Demo</button>
 <button class="btn-seat">Reserve Seat</button>
 
 </div>
@@ -336,7 +336,7 @@ View Details
 
 <div class="modal-footer">
 
-<button class="demo-btn">Book Demo Class</button>
+<button class="register-btn">Book Demo Class</button>
 
 <button class="enroll-btn">Reserve Your Seat</button>
 
