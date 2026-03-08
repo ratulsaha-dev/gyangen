@@ -4,46 +4,51 @@
 
 <div class="demo-container">
 
-<h2>Book a Demo Class</h2>
-
-<form action="demo-process.php" method="POST" class="demo-form">
-
-<div class="form-group">
-<label>Full Name</label>
-<input type="text" name="name" required>
+<div class="demo-logo">
+<img src="assets/logo.png" alt="GyanGen">
 </div>
 
-<div class="form-group">
-<label>Email</label>
-<input type="email" name="email" required>
-</div>
+<h2>Book a Demo</h2>
 
-<div class="form-group">
-<label>Phone Number</label>
-<input type="text" name="phone" required>
-</div>
+<form action="submit-demo.php" method="POST" id="demoForm">
 
-<div class="form-group">
-<label>Course Interested</label>
-<select name="course">
-<option>Java Development</option>
-<option>Python Programming</option>
-<option>GenAI Engineering</option>
-<option>ReactJS Development</option>
-<option>Data Analytics</option>
+<label>Registering As *</label>
+<select name="role" required>
+<option value="">Select Option</option>
+<option value="student">I am a Student</option>
+<option value="partner">I want to be a Partner</option>
+<option value="representative">I want to be a Representative</option>
+<option value="trainer">I want to join as Trainer</option>
 </select>
-</div>
 
-<div class="form-group full">
-<label>Message</label>
-<textarea name="message" rows="4"></textarea>
-</div>
+<label>Name *</label>
+<input type="text" name="name" required>
 
-<div class="form-group full">
-<button type="submit" class="demo-btn">Book Demo</button>
-</div>
+<label>School / University / Organization *</label>
+<input type="text" name="organization" required>
+
+<label>Experience Type *</label>
+<select name="experience" required>
+<option value="">Select Option</option>
+<option value="student">I am a Student</option>
+<option value="organization">I represent an Organization</option>
+<option value="trainer">I am a GyanGen Trainer</option>
+</select>
+
+<label>Contact Number *</label>
+<input type="tel" name="phone" required>
+
+<label>Email *</label>
+<input type="email" name="email" required>
+
+<label>Centre Code (Optional)</label>
+<input type="text" name="centre_code">
+
+<button type="submit" class="demo-btn">Submit Request</button>
 
 </form>
+
+<div id="formMessage"></div>
 
 </div>
 
