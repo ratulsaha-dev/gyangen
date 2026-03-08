@@ -18,7 +18,7 @@
 <option value="student">I am a Student</option>
 <option value="partner">I want to be a Partner</option>
 <option value="representative">I want to be a Representative</option>
-<option value="admin">I am a GyanGen Admin</option>
+<option value="trainer">I want to join as Trainer</option>
 </select>
 
 <label>Name *</label>
