@@ -1,5 +1,5 @@
 <?php include 'includes/header.php'; ?>
-
+<link rel="stylesheet" href="css/style.css">
 <section class="demo-section">
 
 <div class="demo-container">
