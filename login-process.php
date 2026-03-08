@@ -1,41 +1,58 @@
 <?php
 
 session_start();
+include 'includes/config.php';
 
-require_once 'includes/config.php';
+$login_id = $_POST['login_id'];
+$password = $_POST['password'];
+$remember = isset($_POST['remember']);
 
-$login = $_POST['login_id'];
-$password = md5($_POST['password']);
+/* Find user */
 
-$query = $conn->prepare("
-SELECT * FROM users 
-WHERE (email=? OR phone=?) 
-AND password=?
-");
+$sql = "SELECT * FROM registrations 
+WHERE email='$login_id' OR phone='$login_id' LIMIT 1";
 
-$query->bind_param("sss",$login,$login,$password);
-$query->execute();
+$result = $conn->query($sql);
 
-$result = $query->get_result();
-
-if($result->num_rows > 0){
+if($result->num_rows == 1){
 
 $user = $result->fetch_assoc();
 
+/* Verify password */
+
+if(password_verify($password, $user['password'])){
+
 $_SESSION['user_id'] = $user['id'];
-$_SESSION['role'] = $user['role'];
-$_SESSION['name'] = $user['name'];
+$_SESSION['user_name'] = $user['name'];
 
-if($user['role'] == 'admin'){
-    header("Location: admin/dashboard.php");
+/* Remember Me */
+
+if($remember){
+
+setcookie(
+"remember_user",
+$user['id'],
+time() + (86400 * 30),
+"/"
+);
+
+}
+
+header("Location: dashboard.php");
+exit();
+
 }
 else{
-    header("Location: user/dashboard.php");
+
+echo "Incorrect password";
+
 }
 
 }
 else{
-    echo "Invalid login credentials.";
+
+echo "User not found";
+
 }
 
 ?>

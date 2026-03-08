@@ -55,7 +55,7 @@ Become the face of <strong>GyanGen Technologies</strong> in your campus and help
 
 </div>
 
-<a href="partnership.php" class="rep-btn">
+<a href="careers.php" class="rep-btn">
 Apply Now
 </a>
 
@@ -169,7 +169,7 @@ data-desc="Learn Python programming, automation, data analysis, and real-world p
 View Details
 </button>
 
-<button class="btn-demo">Book Demo</button>
+<button class="btn-register">Book Demo</button>
 <button class="btn-seat">Reserve Seat</button>
 
 </div>
@@ -204,7 +204,7 @@ data-desc="Learn prompt engineering, LLM development, AI tools, and build real G
 View Details
 </button>
 
-<button class="btn-demo">Book Demo</button>
+<button class="btn-register">Book Demo</button>
 <button class="btn-seat">Reserve Seat</button>
 
 </div>
@@ -239,7 +239,7 @@ data-desc="Learn ReactJS, modern UI frameworks, APIs, and frontend development p
 View Details
 </button>
 
-<button class="btn-demo">Book Demo</button>
+<button class="btn-register">Book Demo</button>
 <button class="btn-seat">Reserve Seat</button>
 
 </div>

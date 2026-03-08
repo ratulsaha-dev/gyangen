@@ -14,10 +14,15 @@
 <label>Password</label>
 <input type="password" name="password" required>
 
+<div class="remember-box">
+<input type="checkbox" name="remember" id="remember">
+<label for="remember">Remember Me</label>
+</div>
+
 <button type="submit">Login</button>
 
 <p class="login-extra">
-Don't have an account? <a href="book-demo.php">Sign Up</a>
+Don't have an account? <a href="register.php">Sign Up</a>
 </p>
 
 </form>

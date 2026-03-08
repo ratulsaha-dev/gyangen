@@ -1,16 +1,16 @@
 <?php include 'includes/header.php'; ?>
 
-<section class="demo-section">
+<section class="register-section">
 
-<div class="demo-container">
+<div class="register-container">
 
-<div class="demo-logo">
+<div class="register-logo">
 <img src="assets/logo.png" alt="GyanGen">
 </div>
 
 <h2>Book a Demo</h2>
 
-<form action="submit-demo.php" method="POST" id="demoForm">
+<form action="submit-registration.php" method="POST" id="registerForm">
 
 <label>Registering As *</label>
 <select name="role" required>
@@ -41,10 +41,16 @@
 <label>Email *</label>
 <input type="email" name="email" required>
 
+<label>Password *</label>
+<input type="password" name="password" required>
+
+<label>Confirm Password *</label>
+<input type="password" name="confirm_password" required>
+
 <label>Centre Code (Optional)</label>
 <input type="text" name="centre_code">
 
-<button type="submit" class="demo-btn">Submit Request</button>
+<button type="submit" class="register-btn">Submit Request</button>
 
 </form>
 
