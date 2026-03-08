@@ -30,7 +30,7 @@ Gyan<span>Gen</span> Technologies
 <a href="/index.php">Home</a>
 <a href="/courses.php">Courses</a>
 <a href="/about.php">About</a>
-<a href="/blog.php">Blog</a>
+<!-- <a href="/blog.php">Blog</a> -->
 <a href="/contact.php">Contact</a>
 
 </nav>
@@ -38,7 +38,7 @@ Gyan<span>Gen</span> Technologies
 <div class="auth-buttons">
 
 <a href="/login.php" class="login-btn">Login</a>
-<a href="/signup.php" class="signup-btn">Sign Up</a>
+<a href="/signup.php" class="signup-btn">Book a Demo</a>
 
 <button id="themeToggle" class="theme-btn">
 <i class="fa-solid fa-moon"></i>
