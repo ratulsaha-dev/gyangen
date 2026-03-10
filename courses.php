@@ -1,16 +1,12 @@
 <?php include 'includes/header.php'; ?>
 
-<h1 style="text-align:center;margin-top:100px;">
-Courses Page
-</h1>
-
 <section class="courses">
 
 <h2 class="section-title">Our Courses</h2>
 
 <div class="course-grid">
 
-<!-- PYTHON -->
+<!-- Python -->
 
 <div class="course-card">
 
@@ -21,24 +17,36 @@ Courses Page
 <h3>Python Programming</h3>
 
 <p class="course-desc">
-Learn Python programming for automation, backend development, and data applications.
+Learn Python programming for automation, backend development and data applications.
 </p>
 
 <div class="course-meta">
-<span class="old-price">₹8000</span>
 <span class="price">₹5999</span>
+<span class="mode">Online</span>
 </div>
+
+<p class="course-desc"><s>₹8000</s> Limited Offer</p>
 
 <div class="course-buttons">
-<a href="course-details.php?course=python" class="btn-details">View Details</a>
-<a href="register.php" class="btn-demo">Book Demo</a>
-<a href="register.php" class="btn-seat">Reserve Seat</a>
-</div>
+
+<a href="course-details.php?course=python">
+<button class="btn-details">View Details</button>
+</a>
+
+<a href="register.php">
+<button class="btn-register">Book Demo</button>
+</a>
+
+<a href="register.php">
+<button class="btn-seat">Reserve Seat</button>
+</a>
 
 </div>
 
+</div>
 
-<!-- JAVA -->
+
+<!-- Java -->
 
 <div class="course-card">
 
@@ -53,20 +61,32 @@ Master Java programming, OOP concepts and backend development.
 </p>
 
 <div class="course-meta">
-<span class="old-price">₹9000</span>
 <span class="price">₹6499</span>
+<span class="mode">Online</span>
 </div>
+
+<p class="course-desc"><s>₹9000</s> Limited Offer</p>
 
 <div class="course-buttons">
-<a href="course-details.php?course=java" class="btn-details">View Details</a>
-<a href="register.php" class="btn-demo">Book Demo</a>
-<a href="register.php" class="btn-seat">Reserve Seat</a>
-</div>
+
+<a href="course-details.php?course=java">
+<button class="btn-details">View Details</button>
+</a>
+
+<a href="register.php">
+<button class="btn-register">Book Demo</button>
+</a>
+
+<a href="register.php">
+<button class="btn-seat">Reserve Seat</button>
+</a>
 
 </div>
 
+</div>
 
-<!-- WEB DEVELOPMENT -->
+
+<!-- Web Development -->
 
 <div class="course-card">
 
@@ -77,24 +97,36 @@ Master Java programming, OOP concepts and backend development.
 <h3>Web Development</h3>
 
 <p class="course-desc">
-Learn HTML, CSS, JavaScript and build modern responsive websites.
+Learn HTML, CSS, JavaScript and modern web development tools.
 </p>
 
 <div class="course-meta">
-<span class="old-price">₹12000</span>
 <span class="price">₹5999</span>
+<span class="mode">Online</span>
 </div>
+
+<p class="course-desc"><s>₹12000</s> Limited Offer</p>
 
 <div class="course-buttons">
-<a href="course-details.php?course=webdev" class="btn-details">View Details</a>
-<a href="register.php" class="btn-demo">Book Demo</a>
-<a href="register.php" class="btn-seat">Reserve Seat</a>
-</div>
+
+<a href="course-details.php?course=web">
+<button class="btn-details">View Details</button>
+</a>
+
+<a href="register.php">
+<button class="btn-register">Book Demo</button>
+</a>
+
+<a href="register.php">
+<button class="btn-seat">Reserve Seat</button>
+</a>
 
 </div>
 
+</div>
 
-<!-- GEN AI -->
+
+<!-- Gen AI -->
 
 <div class="course-card">
 
@@ -105,18 +137,30 @@ Learn HTML, CSS, JavaScript and build modern responsive websites.
 <h3>GenAI Engineering</h3>
 
 <p class="course-desc">
-Build AI applications using LLMs, prompt engineering and AI frameworks.
+Build AI powered applications using modern LLM tools.
 </p>
 
 <div class="course-meta">
-<span class="old-price">₹15000</span>
 <span class="price">₹8999</span>
+<span class="mode">Online</span>
 </div>
 
+<p class="course-desc"><s>₹15000</s> Limited Offer</p>
+
 <div class="course-buttons">
-<a href="course-details.php?course=genai" class="btn-details">View Details</a>
-<a href="register.php" class="btn-demo">Book Demo</a>
-<a href="register.php" class="btn-seat">Reserve Seat</a>
+
+<a href="course-details.php?course=genai">
+<button class="btn-details">View Details</button>
+</a>
+
+<a href="register.php">
+<button class="btn-register">Book Demo</button>
+</a>
+
+<a href="register.php">
+<button class="btn-seat">Reserve Seat</button>
+</a>
+
 </div>
 
 </div>
@@ -133,25 +177,37 @@ Build AI applications using LLMs, prompt engineering and AI frameworks.
 <h3>SQL & Databases</h3>
 
 <p class="course-desc">
-Learn SQL queries, relational databases and backend data management.
+Learn relational databases, SQL queries and backend data systems.
 </p>
 
 <div class="course-meta">
-<span class="old-price">₹7000</span>
 <span class="price">₹4499</span>
+<span class="mode">Online</span>
 </div>
+
+<p class="course-desc"><s>₹7000</s> Limited Offer</p>
 
 <div class="course-buttons">
-<a href="course-details.php?course=sql" class="btn-details">View Details</a>
-<a href="register.php" class="btn-demo">Book Demo</a>
-<a href="register.php" class="btn-seat">Reserve Seat</a>
+
+<a href="course-details.php?course=sql">
+<button class="btn-details">View Details</button>
+</a>
+
+<a href="register.php">
+<button class="btn-register">Book Demo</button>
+</a>
+
+<a href="register.php">
+<button class="btn-seat">Reserve Seat</button>
+</a>
+
 </div>
 
 </div>
+
 
 </div>
 
 </section>
-
 
 <?php include 'includes/footer.php'; ?>
