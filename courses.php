@@ -23,9 +23,13 @@ Learn Python programming for automation, backend development and data applicatio
 
 <div class="course-meta">
 
-<div>
+<div class="price-area">
 <div class="price">₹5999</div>
-<div class="old-price">₹8000 Limited Offer</div>
+
+<div class="discount-row">
+<span class="old-price">₹8000</span>
+<span class="offer-text">Limited Offer</span>
+</div>
 </div>
 
 <span class="mode">Online</span>
@@ -37,6 +41,8 @@ Learn Python programming for automation, backend development and data applicatio
 <a href="course-details.php?course=python">
 <button class="btn-details">View Details</button>
 </a>
+
+<div class="course-actions">
 
 <a href="register.php">
 <button class="btn-register">Book Demo</button>
@@ -50,6 +56,7 @@ Learn Python programming for automation, backend development and data applicatio
 
 </div>
 
+</div>
 
 
 <!-- JAVA -->
@@ -68,9 +75,13 @@ Master Java programming, OOP concepts and backend development.
 
 <div class="course-meta">
 
-<div>
+<div class="price-area">
 <div class="price">₹6499</div>
-<div class="old-price">₹9000 Limited Offer</div>
+
+<div class="discount-row">
+<span class="old-price">₹9000</span>
+<span class="offer-text">Limited Offer</span>
+</div>
 </div>
 
 <span class="mode">Online</span>
@@ -82,6 +93,8 @@ Master Java programming, OOP concepts and backend development.
 <a href="course-details.php?course=java">
 <button class="btn-details">View Details</button>
 </a>
+
+<div class="course-actions">
 
 <a href="register.php">
 <button class="btn-register">Book Demo</button>
@@ -95,6 +108,7 @@ Master Java programming, OOP concepts and backend development.
 
 </div>
 
+</div>
 
 
 <!-- WEB DEVELOPMENT -->
@@ -113,9 +127,13 @@ Learn HTML, CSS, JavaScript and modern web development tools.
 
 <div class="course-meta">
 
-<div>
+<div class="price-area">
 <div class="price">₹5999</div>
-<div class="old-price">₹12000 Limited Offer</div>
+
+<div class="discount-row">
+<span class="old-price">₹12000</span>
+<span class="offer-text">Limited Offer</span>
+</div>
 </div>
 
 <span class="mode">Online</span>
@@ -127,6 +145,8 @@ Learn HTML, CSS, JavaScript and modern web development tools.
 <a href="course-details.php?course=web">
 <button class="btn-details">View Details</button>
 </a>
+
+<div class="course-actions">
 
 <a href="register.php">
 <button class="btn-register">Book Demo</button>
@@ -140,6 +160,7 @@ Learn HTML, CSS, JavaScript and modern web development tools.
 
 </div>
 
+</div>
 
 
 <!-- GEN AI -->
@@ -158,9 +179,13 @@ Build AI powered applications using modern LLM tools.
 
 <div class="course-meta">
 
-<div>
+<div class="price-area">
 <div class="price">₹8999</div>
-<div class="old-price">₹15000 Limited Offer</div>
+
+<div class="discount-row">
+<span class="old-price">₹15000</span>
+<span class="offer-text">Limited Offer</span>
+</div>
 </div>
 
 <span class="mode">Online</span>
@@ -172,6 +197,8 @@ Build AI powered applications using modern LLM tools.
 <a href="course-details.php?course=genai">
 <button class="btn-details">View Details</button>
 </a>
+
+<div class="course-actions">
 
 <a href="register.php">
 <button class="btn-register">Book Demo</button>
@@ -185,6 +212,7 @@ Build AI powered applications using modern LLM tools.
 
 </div>
 
+</div>
 
 
 <!-- SQL -->
@@ -203,9 +231,13 @@ Learn relational databases, SQL queries and backend data management.
 
 <div class="course-meta">
 
-<div>
+<div class="price-area">
 <div class="price">₹4499</div>
-<div class="old-price">₹7000 Limited Offer</div>
+
+<div class="discount-row">
+<span class="old-price">₹7000</span>
+<span class="offer-text">Limited Offer</span>
+</div>
 </div>
 
 <span class="mode">Online</span>
@@ -218,6 +250,8 @@ Learn relational databases, SQL queries and backend data management.
 <button class="btn-details">View Details</button>
 </a>
 
+<div class="course-actions">
+
 <a href="register.php">
 <button class="btn-register">Book Demo</button>
 </a>
@@ -225,6 +259,8 @@ Learn relational databases, SQL queries and backend data management.
 <a href="register.php">
 <button class="btn-seat">Reserve Seat</button>
 </a>
+
+</div>
 
 </div>
 
