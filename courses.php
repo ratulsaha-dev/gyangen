@@ -28,7 +28,6 @@ Learn Python programming for automation, backend development and data applicatio
 
 <div class="discount-row">
 <span class="old-price">₹8000</span>
-<span class="offer-text">Limited Offer</span>
 </div>
 </div>
 
@@ -80,7 +79,7 @@ Master Java programming, OOP concepts and backend development.
 
 <div class="discount-row">
 <span class="old-price">₹9000</span>
-<span class="offer-text">Limited Offer</span>
+
 </div>
 </div>
 
@@ -132,7 +131,6 @@ Learn HTML, CSS, JavaScript and modern web development tools.
 
 <div class="discount-row">
 <span class="old-price">₹12000</span>
-<span class="offer-text">Limited Offer</span>
 </div>
 </div>
 
@@ -184,7 +182,6 @@ Build AI powered applications using modern LLM tools.
 
 <div class="discount-row">
 <span class="old-price">₹15000</span>
-<span class="offer-text">Limited Offer</span>
 </div>
 </div>
 
@@ -236,7 +233,6 @@ Learn relational databases, SQL queries and backend data management.
 
 <div class="discount-row">
 <span class="old-price">₹7000</span>
-<span class="offer-text">Limited Offer</span>
 </div>
 </div>
 
