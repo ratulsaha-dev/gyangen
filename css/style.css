@@ -259,6 +259,10 @@ background:#28a745;
 color:white;
 }
 
+.course-desc s{
+color:#888;
+margin-right:5px;
+}
 
 
 /* FOOTER */
@@ -1348,56 +1352,3 @@ color:#FFD700;
 text-decoration:none;
 }
 
-/* Course */
-
-.course-detail-section{
-padding:80px 8%;
-display:flex;
-justify-content:center;
-}
-
-.course-detail-container{
-max-width:800px;
-background:white;
-padding:40px;
-border-radius:10px;
-box-shadow:0 10px 25px rgba(0,0,0,0.08);
-}
-
-body.dark-mode .course-detail-container{
-background:#1b1b1b;
-}
-
-.course-info p{
-margin:10px 0;
-}
-
-.syllabus .topic{
-width:100%;
-padding:12px;
-margin-top:10px;
-background:#FFD700;
-border:none;
-cursor:pointer;
-text-align:left;
-font-weight:600;
-}
-
-.subtopics{
-display:none;
-padding:10px;
-border-left:3px solid #FFD700;
-}
-
-.course-actions{
-margin-top:30px;
-display:flex;
-gap:15px;
-}
-
-.old-price{
-text-decoration: line-through;
-color:#888;
-margin-right:8px;
-font-size:14px;
-}
