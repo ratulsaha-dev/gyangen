@@ -6,7 +6,8 @@
 
 <div class="course-grid">
 
-<!-- Python -->
+
+<!-- PYTHON -->
 
 <div class="course-card">
 
@@ -21,11 +22,15 @@ Learn Python programming for automation, backend development and data applicatio
 </p>
 
 <div class="course-meta">
-<span class="price">₹5999</span>
-<span class="mode">Online</span>
+
+<div>
+<div class="price">₹5999</div>
+<div class="old-price">₹8000 Limited Offer</div>
 </div>
 
-<p class="course-desc"><s>₹8000</s> Limited Offer</p>
+<span class="mode">Online</span>
+
+</div>
 
 <div class="course-buttons">
 
@@ -46,7 +51,8 @@ Learn Python programming for automation, backend development and data applicatio
 </div>
 
 
-<!-- Java -->
+
+<!-- JAVA -->
 
 <div class="course-card">
 
@@ -61,11 +67,15 @@ Master Java programming, OOP concepts and backend development.
 </p>
 
 <div class="course-meta">
-<span class="price">₹6499</span>
-<span class="mode">Online</span>
+
+<div>
+<div class="price">₹6499</div>
+<div class="old-price">₹9000 Limited Offer</div>
 </div>
 
-<p class="course-desc"><s>₹9000</s> Limited Offer</p>
+<span class="mode">Online</span>
+
+</div>
 
 <div class="course-buttons">
 
@@ -86,7 +96,8 @@ Master Java programming, OOP concepts and backend development.
 </div>
 
 
-<!-- Web Development -->
+
+<!-- WEB DEVELOPMENT -->
 
 <div class="course-card">
 
@@ -101,11 +112,15 @@ Learn HTML, CSS, JavaScript and modern web development tools.
 </p>
 
 <div class="course-meta">
-<span class="price">₹5999</span>
-<span class="mode">Online</span>
+
+<div>
+<div class="price">₹5999</div>
+<div class="old-price">₹12000 Limited Offer</div>
 </div>
 
-<p class="course-desc"><s>₹12000</s> Limited Offer</p>
+<span class="mode">Online</span>
+
+</div>
 
 <div class="course-buttons">
 
@@ -126,7 +141,8 @@ Learn HTML, CSS, JavaScript and modern web development tools.
 </div>
 
 
-<!-- Gen AI -->
+
+<!-- GEN AI -->
 
 <div class="course-card">
 
@@ -141,11 +157,15 @@ Build AI powered applications using modern LLM tools.
 </p>
 
 <div class="course-meta">
-<span class="price">₹8999</span>
-<span class="mode">Online</span>
+
+<div>
+<div class="price">₹8999</div>
+<div class="old-price">₹15000 Limited Offer</div>
 </div>
 
-<p class="course-desc"><s>₹15000</s> Limited Offer</p>
+<span class="mode">Online</span>
+
+</div>
 
 <div class="course-buttons">
 
@@ -166,6 +186,7 @@ Build AI powered applications using modern LLM tools.
 </div>
 
 
+
 <!-- SQL -->
 
 <div class="course-card">
@@ -177,15 +198,19 @@ Build AI powered applications using modern LLM tools.
 <h3>SQL & Databases</h3>
 
 <p class="course-desc">
-Learn relational databases, SQL queries and backend data systems.
+Learn relational databases, SQL queries and backend data management.
 </p>
 
 <div class="course-meta">
-<span class="price">₹4499</span>
-<span class="mode">Online</span>
+
+<div>
+<div class="price">₹4499</div>
+<div class="old-price">₹7000 Limited Offer</div>
 </div>
 
-<p class="course-desc"><s>₹7000</s> Limited Offer</p>
+<span class="mode">Online</span>
+
+</div>
 
 <div class="course-buttons">
 
