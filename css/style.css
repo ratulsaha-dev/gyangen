@@ -1487,3 +1487,140 @@ text-align:center;
 .apply-btn:hover{
 background:#e6c200;
 }
+
+/* HERO */
+
+.careers-hero{
+height:400px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(135deg,#000,#1a1a1a);
+}
+
+.careers-hero h1{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.careers-hero p{
+max-width:700px;
+margin:auto;
+color:#aaa;
+line-height:1.6;
+}
+
+.careers-cta{
+display:inline-block;
+margin-top:25px;
+background:#FFD700;
+padding:12px 25px;
+border-radius:6px;
+color:black;
+font-weight:600;
+text-decoration:none;
+}
+
+
+
+/* CAREER GRID */
+
+.careers-section{
+padding:80px 8%;
+}
+
+.career-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+
+
+/* CARD */
+
+.career-card{
+background:#111;
+padding:30px;
+border-radius:10px;
+transition:0.3s;
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+.career-card:hover{
+transform:translateY(-8px);
+border:1px solid #FFD700;
+}
+
+
+
+/* HEADER */
+
+.job-header{
+display:flex;
+justify-content:space-between;
+margin-bottom:10px;
+}
+
+.job-status{
+background:#28a745;
+padding:3px 10px;
+border-radius:4px;
+font-size:12px;
+}
+
+
+
+/* META */
+
+.job-meta{
+font-size:13px;
+color:#bbb;
+display:flex;
+flex-direction:column;
+gap:3px;
+margin-bottom:12px;
+}
+
+
+
+/* BUTTON */
+
+.apply-btn{
+display:inline-block;
+margin-top:10px;
+background:#FFD700;
+padding:10px 18px;
+border-radius:6px;
+color:black;
+font-weight:600;
+text-decoration:none;
+}
+
+
+
+/* PROCESS */
+
+.hiring-process{
+padding:80px 8%;
+text-align:center;
+}
+
+.process-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.process-step{
+background:#111;
+padding:30px;
+border-radius:10px;
+}
+
+.process-step h3{
+font-size:30px;
+color:#FFD700;
+}
