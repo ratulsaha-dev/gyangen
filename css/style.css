@@ -207,63 +207,94 @@ font-size:14px;
 margin:15px 0;
 line-height:1.6;
 }
+/* PRICE AREA */
 
 .course-meta{
 display:flex;
 justify-content:space-between;
-margin:15px 0;
-}
-
-.price{
-font-weight:bold;
-color:#FFD700;
-}
-
-.mode{
-background:#eee;
-padding:4px 10px;
-border-radius:5px;
-font-size:13px;
-}
-
-body.dark-mode .mode{
-background:#333;
-}
-
-.course-buttons{
-display:flex;
-flex-direction:column;
-gap:8px;
+align-items:center;
 margin-top:15px;
 }
 
-.course-buttons button{
-padding:8px;
-border:none;
-border-radius:5px;
-cursor:pointer;
-font-size:13px;
+.price{
+font-size:20px;
+font-weight:700;
+color:#FFD700;
 }
 
+.old-price{
+font-size:13px;
+text-decoration:line-through;
+color:#888;
+margin-top:3px;
+}
+
+.mode{
+background:#2a2a2a;
+padding:4px 10px;
+border-radius:6px;
+font-size:12px;
+color:#ccc;
+}
+
+
+
+/* BUTTON LAYOUT */
+
+.course-buttons{
+margin-top:18px;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+/* MAIN BUTTON */
+
 .btn-details{
-background:#333;
+background:#2a2a2a;
 color:white;
+padding:10px;
+border-radius:6px;
+font-size:14px;
+border:none;
+cursor:pointer;
+width:100%;
+transition:0.2s;
+}
+
+.btn-details:hover{
+background:#3a3a3a;
+}
+
+
+/* SECONDARY BUTTON ROW */
+
+.course-actions{
+display:flex;
+gap:10px;
 }
 
 .btn-register{
 background:#FFD700;
+border:none;
+padding:10px;
+border-radius:6px;
+font-size:13px;
+cursor:pointer;
+flex:1;
+font-weight:600;
 }
 
 .btn-seat{
 background:#28a745;
 color:white;
+border:none;
+padding:10px;
+border-radius:6px;
+font-size:13px;
+cursor:pointer;
+flex:1;
 }
-
-.course-desc s{
-color:#888;
-margin-right:5px;
-}
-
 
 /* FOOTER */
 
