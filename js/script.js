@@ -283,3 +283,18 @@ if(e.target === repPopup){
 repPopup.style.display = "none";
 }
 }
+
+// Course
+
+document.querySelectorAll(".topic").forEach(button => {
+
+button.addEventListener("click", () => {
+
+const sub = button.nextElementSibling;
+
+sub.style.display =
+sub.style.display === "block" ? "none" : "block";
+
+});
+
+});
