@@ -106,6 +106,40 @@ Want to Become a <span id="roleText"></span>
 
 <div class="course-grid">
 
+<!-- PYTHON -->
+
+<div class="course-card">
+
+<div class="course-icon">
+<i class="fab fa-c"></i>
+</div>
+
+<h3>C Programming</h3>
+
+<p class="course-desc">
+Master C Programming
+</p>
+
+<div class="course-meta">
+<span class="price">₹6,999</span>
+<span class="mode">Online</span>
+</div>
+
+<div class="course-buttons">
+
+<button class="btn-details"
+data-title="C Programming"
+data-desc="Learn C programming.">
+View Details
+</button>
+
+<button class="btn-register">Book Demo</button>
+<button class="btn-seat">Reserve Seat</button>
+
+</div>
+
+</div>
+
 
 <!-- JAVA -->
 
