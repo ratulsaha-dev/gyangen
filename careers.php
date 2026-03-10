@@ -1,5 +1,5 @@
 <?php include 'includes/header.php'; ?>
-
+<link rel="stylesheet" href="css/style.css">
 <section class="careers-hero">
 
 <h1>Careers at GyanGen Technologies</h1>
