@@ -180,11 +180,10 @@ gap:30px;
 }
 
 .course-card{
-background:white;
-padding:30px;
-border-radius:10px;
-box-shadow:0 6px 20px rgba(0,0,0,0.08);
-transition:0.3s;
+position:relative;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
 }
 
 body.dark-mode .course-card{
@@ -207,6 +206,31 @@ font-size:14px;
 margin:15px 0;
 line-height:1.6;
 }
+
+.course-extra{
+display:flex;
+justify-content:space-between;
+margin-top:10px;
+font-size:13px;
+color:#ccc;
+}
+
+.seat-alert{
+color:#ff4d4d;
+font-weight:600;
+}
+
+.seat-alert{
+color:#ff4d4d;
+font-weight:600;
+}
+
+.course-actions{
+display:flex;
+gap:10px;
+margin-top:12px;
+}
+
 /* PRICE AREA */
 
 .price-area{
@@ -226,6 +250,19 @@ align-items:center;
 gap:8px;
 margin-top:4px;
 }
+
+.discount-badge{
+position:absolute;
+top:15px;
+right:15px;
+background:#ff4d4d;
+color:white;
+font-size:12px;
+padding:5px 10px;
+border-radius:20px;
+font-weight:600;
+}
+
 
 .old-price{
 font-size:17px;
