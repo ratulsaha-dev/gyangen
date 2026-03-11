@@ -1593,14 +1593,14 @@ margin-bottom:12px;
 /* BUTTON */
 
 .apply-btn{
-display:inline-block;
-margin-top:10px;
+display:block;
 background:#FFD700;
-padding:10px 18px;
-border-radius:6px;
 color:black;
+padding:12px 20px;
+border-radius:6px;
 font-weight:600;
-text-decoration:none;
+text-align:center;
+margin-top:auto;
 }
 
 
