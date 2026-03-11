@@ -11,6 +11,8 @@
 
 <div class="course-card">
 
+<div class="discount-badge">25% OFF</div>
+
 <div class="course-icon">
 <i class="fab fa-python"></i>
 </div>
@@ -25,34 +27,23 @@ Learn Python programming for automation, backend development and data applicatio
 
 <div class="price-area">
 <div class="price">₹5999</div>
-
-<div class="discount-row">
-<span class="old-price">₹8000</span>
-</div>
+<div class="old-price">₹8000</div>
 </div>
 
 <span class="mode">Online</span>
 
 </div>
 
-<div class="course-buttons">
-
-<a href="course-details.php?course=python">
-<button class="btn-details">View Details</button>
-</a>
-
-<div class="course-actions">
-
-<a href="register.php">
-<button class="btn-register">Book Demo</button>
-</a>
-
-<a href="register.php">
-<button class="btn-seat">Reserve Seat</button>
-</a>
-
+<div class="course-extra">
+<span>Batch Size: 30</span>
+<span class="seat-alert">Limited Seats Available</span>
 </div>
 
+<button class="btn-details">View Details</button>
+
+<div class="course-actions">
+<button class="btn-register">Book Demo</button>
+<button class="btn-seat">Reserve Seat</button>
 </div>
 
 </div>
@@ -61,6 +52,8 @@ Learn Python programming for automation, backend development and data applicatio
 <!-- JAVA -->
 
 <div class="course-card">
+
+<div class="discount-badge">28% OFF</div>
 
 <div class="course-icon">
 <i class="fab fa-java"></i>
@@ -76,35 +69,23 @@ Master Java programming, OOP concepts and backend development.
 
 <div class="price-area">
 <div class="price">₹6499</div>
-
-<div class="discount-row">
-<span class="old-price">₹9000</span>
-
-</div>
+<div class="old-price">₹9000</div>
 </div>
 
 <span class="mode">Online</span>
 
 </div>
 
-<div class="course-buttons">
-
-<a href="course-details.php?course=java">
-<button class="btn-details">View Details</button>
-</a>
-
-<div class="course-actions">
-
-<a href="register.php">
-<button class="btn-register">Book Demo</button>
-</a>
-
-<a href="register.php">
-<button class="btn-seat">Reserve Seat</button>
-</a>
-
+<div class="course-extra">
+<span>Batch Size: 30</span>
+<span class="seat-alert">Limited Seats Available</span>
 </div>
 
+<button class="btn-details">View Details</button>
+
+<div class="course-actions">
+<button class="btn-register">Book Demo</button>
+<button class="btn-seat">Reserve Seat</button>
 </div>
 
 </div>
@@ -113,6 +94,8 @@ Master Java programming, OOP concepts and backend development.
 <!-- WEB DEVELOPMENT -->
 
 <div class="course-card">
+
+<div class="discount-badge">50% OFF</div>
 
 <div class="course-icon">
 <i class="fas fa-code"></i>
@@ -128,34 +111,23 @@ Learn HTML, CSS, JavaScript and modern web development tools.
 
 <div class="price-area">
 <div class="price">₹5999</div>
-
-<div class="discount-row">
-<span class="old-price">₹12000</span>
-</div>
+<div class="old-price">₹12000</div>
 </div>
 
 <span class="mode">Online</span>
 
 </div>
 
-<div class="course-buttons">
-
-<a href="course-details.php?course=web">
-<button class="btn-details">View Details</button>
-</a>
-
-<div class="course-actions">
-
-<a href="register.php">
-<button class="btn-register">Book Demo</button>
-</a>
-
-<a href="register.php">
-<button class="btn-seat">Reserve Seat</button>
-</a>
-
+<div class="course-extra">
+<span>Batch Size: 30</span>
+<span class="seat-alert">Limited Seats Available</span>
 </div>
 
+<button class="btn-details">View Details</button>
+
+<div class="course-actions">
+<button class="btn-register">Book Demo</button>
+<button class="btn-seat">Reserve Seat</button>
 </div>
 
 </div>
@@ -164,6 +136,8 @@ Learn HTML, CSS, JavaScript and modern web development tools.
 <!-- GEN AI -->
 
 <div class="course-card">
+
+<div class="discount-badge">40% OFF</div>
 
 <div class="course-icon">
 <i class="fas fa-brain"></i>
@@ -179,85 +153,66 @@ Build AI powered applications using modern LLM tools.
 
 <div class="price-area">
 <div class="price">₹8999</div>
-
-<div class="discount-row">
-<span class="old-price">₹15000</span>
-</div>
+<div class="old-price">₹15000</div>
 </div>
 
 <span class="mode">Online</span>
 
 </div>
 
-<div class="course-buttons">
+<div class="course-extra">
+<span>Batch Size: 30</span>
+<span class="seat-alert">Limited Seats Available</span>
+</div>
 
-<a href="course-details.php?course=genai">
 <button class="btn-details">View Details</button>
-</a>
 
 <div class="course-actions">
-
-<a href="register.php">
 <button class="btn-register">Book Demo</button>
-</a>
-
-<a href="register.php">
 <button class="btn-seat">Reserve Seat</button>
-</a>
-
 </div>
 
 </div>
 
-</div>
 
-
-<!-- SQL -->
+<!-- C PROGRAMMING -->
 
 <div class="course-card">
 
+<div class="discount-badge">29% OFF</div>
+
 <div class="course-icon">
-<i class="fas fa-database"></i>
+<i class="fas fa-terminal"></i>
 </div>
 
-<h3>SQL & Databases</h3>
+<h3>C Programming</h3>
 
 <p class="course-desc">
-Learn relational databases, SQL queries and backend data management.
+Learn C programming fundamentals including pointers, memory management,
+and system-level programming.
 </p>
 
 <div class="course-meta">
 
 <div class="price-area">
-<div class="price">₹4499</div>
-
-<div class="discount-row">
-<span class="old-price">₹7000</span>
-</div>
+<div class="price">₹4999</div>
+<div class="old-price">₹7000</div>
 </div>
 
 <span class="mode">Online</span>
 
 </div>
 
-<div class="course-buttons">
-
-<a href="course-details.php?course=sql">
-<button class="btn-details">View Details</button>
-</a>
-
-<div class="course-actions">
-
-<a href="register.php">
-<button class="btn-register">Book Demo</button>
-</a>
-
-<a href="register.php">
-<button class="btn-seat">Reserve Seat</button>
-</a>
-
+<div class="course-extra">
+<span>Batch Size: 30</span>
+<span class="seat-alert">Limited Seats Available</span>
 </div>
 
+<button class="btn-details">View Details</button>
+
+<div class="course-actions">
+<button class="btn-register">Book Demo</button>
+<button class="btn-seat">Reserve Seat</button>
 </div>
 
 </div>
