@@ -31,7 +31,7 @@ We are looking for passionate people who want to shape the future of learning.
 
 <div class="job-header">
 <h3>SDE Intern</h3>
-<span class="job-status">Open</span>
+<span class="job-status">Actively Hiring</span>
 </div>
 
 <div class="job-meta">
