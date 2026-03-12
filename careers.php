@@ -64,7 +64,7 @@ This internship is designed to give practical engineering exposure.
 
 <div class="job-header">
 <h3>Sales Intern</h3>
-<span class="job-status">Open</span>
+<span class="job-status">Actively Hiring</span>
 </div>
 
 <div class="job-meta">
@@ -96,7 +96,7 @@ partnerships and student engagement.
 
 <div class="job-header">
 <h3>Trainer</h3>
-<span class="job-status">Open</span>
+<span class="job-status">Actively Hiring</span>
 </div>
 
 <div class="job-meta">
@@ -128,7 +128,7 @@ technology stacks.
 
 <div class="job-header">
 <h3>Call Process Associate</h3>
-<span class="job-status">Open</span>
+<span class="job-status">Actively Hiring</span>
 </div>
 
 <div class="job-meta">
@@ -160,7 +160,7 @@ Focus on communication and lead engagement.
 
 <div class="job-header">
 <h3>Campus Representative</h3>
-<span class="job-status">Open</span>
+<span class="job-status">Actively Hiring</span>
 </div>
 
 <div class="job-meta">
