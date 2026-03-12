@@ -220,15 +220,18 @@ color:#ff4d4d;
 font-weight:600;
 }
 
-.seat-alert{
-color:#ff4d4d;
-font-weight:600;
-}
-
 .course-actions{
 display:flex;
 gap:10px;
 margin-top:12px;
+}
+
+.course-info{
+display:flex;
+justify-content:space-between;
+font-size:13px;
+margin-top:8px;
+color:#bbb;
 }
 
 /* PRICE AREA */
@@ -238,11 +241,6 @@ display:flex;
 flex-direction:column;
 }
 
-.price{
-font-size:22px;
-font-weight:700;
-color:#FFD700;
-}
 
 .discount-row{
 display:flex;
@@ -253,30 +251,56 @@ margin-top:4px;
 
 .discount-badge{
 position:absolute;
-top:15px;
-right:15px;
+right:0;
+top:0;
 background:#ff4d4d;
 color:white;
 font-size:12px;
-padding:5px 10px;
+padding:4px 10px;
 border-radius:20px;
-font-weight:600;
 }
 
+
+/* PRICE ROW */
+
+.price-row{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:10px;
+margin:12px 0;
+}
+
+.price{
+font-size:22px;
+font-weight:700;
+color:#FFD700;
+}
 
 .old-price{
-font-size:17px;
 text-decoration:line-through;
 color:#888;
+font-size:14px;
 }
+
 
 .offer-text{
 font-size:13px;
 color:#bbb;
 }
 
+/* TOP SECTION */
+
+.course-top{
+display:flex;
+justify-content:center;
+position:relative;
+margin-bottom:10px;
+}
 
 /* BUTTON LAYOUT */
+
+
 
 .course-buttons{
 margin-top:18px;
@@ -297,6 +321,7 @@ border:none;
 cursor:pointer;
 width:100%;
 transition:0.2s;
+margin-top:15px;
 }
 
 .btn-details:hover{
@@ -1317,6 +1342,15 @@ right:20px;
 font-size:26px;
 cursor:pointer;
 }
+/* Mode */
+
+.mode{
+background:#2a2a2a;
+padding:4px 10px;
+border-radius:6px;
+font-size:12px;
+}
+
 
 /* HEADER */
 
