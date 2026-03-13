@@ -1,202 +1,224 @@
 <?php include 'includes/header.php'; ?>
 
-<section class="courses">
+<section class="careers-hero">
 
-<h2 class="section-title">Our Courses</h2>
+<div class="careers-hero-content">
 
-<div class="course-grid">
+<h1>Build the Future With Us</h1>
 
-<!-- Python -->
-
-<div class="course-card">
-
-<div class="course-top">
-<div class="course-icon">
-<i class="fab fa-python"></i>
-</div>
-<span class="discount-badge">25% OFF</span>
-</div>
-
-<h3>Python Programming</h3>
-
-<p class="course-desc">
-Master Python for automation, backend development and data projects.
+<p>
+GyanGen Technologies is building a new generation of technology education.
+We are looking for passionate people who want to shape the future of learning.
 </p>
 
-<div class="price-row">
-<span class="price">₹5999</span>
-<span class="old-price">₹8000</span>
-<span class="mode">Online</span>
-</div>
-
-<div class="course-info">
-<span>Batch Size: 30</span>
-<span class="seat-alert">Limited Seats</span>
-</div>
-
-<button class="btn-details">View Details</button>
-
-<div class="course-actions">
-<button class="btn-register">Book Demo</button>
-<button class="btn-seat">Reserve Seat</button>
-</div>
+<a href="#openings" class="careers-cta">View Open Positions</a>
 
 </div>
 
+</section>
 
-<!-- Java -->
 
-<div class="course-card">
+<section id="openings" class="careers-section">
 
-<div class="course-top">
-<div class="course-icon">
-<i class="fab fa-java"></i>
+<h2 class="section-title">Open Positions</h2>
+
+<div class="career-grid">
+
+
+<!-- SDE INTERN -->
+
+<div class="career-card">
+
+<div class="job-header">
+<h3>SDE Intern</h3>
+<span class="job-status">Actively Hiring</span>
 </div>
-<span class="discount-badge">28% OFF</span>
+
+<div class="job-meta">
+<span>Experience: 0 – 1 Years</span>
+<span>Location: Remote</span>
+<span>Internship: 4 Months</span>
 </div>
 
-<h3>Java Programming</h3>
-
-<p class="course-desc">
-Learn Java programming, OOP concepts and backend development fundamentals.
+<p>
+Work on real software development tasks and help build the learning platform.
+This internship is designed to give practical engineering exposure.
 </p>
 
-<div class="price-row">
-<span class="price">₹6499</span>
-<span class="old-price">₹9000</span>
-<span class="mode">Online</span>
-</div>
+<ul>
+<li>Positions: 10</li>
+<li>Real project experience</li>
+<li>Mentorship from engineers</li>
+<li>Non-paid internship</li>
+</ul>
 
-<div class="course-info">
-<span>Batch Size: 30</span>
-<span class="seat-alert">Limited Seats</span>
-</div>
-
-<button class="btn-details">View Details</button>
-
-<div class="course-actions">
-<button class="btn-register">Book Demo</button>
-<button class="btn-seat">Reserve Seat</button>
-</div>
+<a href="register.php" class="apply-btn">Apply Now</a>
 
 </div>
 
 
-<!-- Web Development -->
 
-<div class="course-card">
+<!-- SALES INTERN -->
 
-<div class="course-top">
-<div class="course-icon">
-<i class="fas fa-code"></i>
+<div class="career-card">
+
+<div class="job-header">
+<h3>Sales Intern</h3>
+<span class="job-status">Actively Hiring</span>
 </div>
-<span class="discount-badge">50% OFF</span>
+
+<div class="job-meta">
+<span>Experience: 0 – 1 Years</span>
+<span>Location: Remote</span>
+<span>Duration: 6 Months</span>
 </div>
 
-<h3>Web Development</h3>
-
-<p class="course-desc">
-Build modern websites using HTML, CSS, JavaScript and frontend tools.
+<p>
+Help expand the reach of GyanGen learning programs through outreach,
+partnerships and student engagement.
 </p>
 
-<div class="price-row">
-<span class="price">₹5999</span>
-<span class="old-price">₹12000</span>
-<span class="mode">Online</span>
-</div>
+<ul>
+<li>Positions: 10</li>
+<li>Performance based incentives</li>
+<li>PPO based on performance</li>
+</ul>
 
-<div class="course-info">
-<span>Batch Size: 30</span>
-<span class="seat-alert">Limited Seats</span>
-</div>
-
-<button class="btn-details">View Details</button>
-
-<div class="course-actions">
-<button class="btn-register">Book Demo</button>
-<button class="btn-seat">Reserve Seat</button>
-</div>
+<a href="register.php" class="apply-btn">Apply Now</a>
 
 </div>
 
 
-<!-- GenAI -->
 
-<div class="course-card">
+<!-- TRAINER -->
 
-<div class="course-top">
-<div class="course-icon">
-<i class="fas fa-brain"></i>
+<div class="career-card">
+
+<div class="job-header">
+<h3>Trainer</h3>
+<span class="job-status">Actively Hiring</span>
 </div>
-<span class="discount-badge">40% OFF</span>
+
+<div class="job-meta">
+<span>Experience: 6 Months – 5 Years</span>
+<span>Location: Remote</span>
+<span>Type: Part Time</span>
 </div>
 
-<h3>GenAI Engineering</h3>
-
-<p class="course-desc">
-Build AI-powered applications using LLMs and modern AI tools.
+<p>
+Deliver online technical sessions and mentor students learning modern
+technology stacks.
 </p>
 
-<div class="price-row">
-<span class="price">₹8999</span>
-<span class="old-price">₹15000</span>
-<span class="mode">Online</span>
-</div>
+<ul>
+<li>Positions: 5</li>
+<li>Probation: 6 Months</li>
+<li>Payment per class</li>
+</ul>
 
-<div class="course-info">
-<span>Batch Size: 30</span>
-<span class="seat-alert">Limited Seats</span>
-</div>
-
-<button class="btn-details">View Details</button>
-
-<div class="course-actions">
-<button class="btn-register">Book Demo</button>
-<button class="btn-seat">Reserve Seat</button>
-</div>
+<a href="register.php" class="apply-btn">Apply Now</a>
 
 </div>
 
 
-<!-- C Programming -->
 
-<div class="course-card">
+<!-- CALL PROCESS -->
 
-<div class="course-top">
-<div class="course-icon">
-<i class="fas fa-terminal"></i>
+<div class="career-card">
+
+<div class="job-header">
+<h3>Call Process Associate</h3>
+<span class="job-status">Actively Hiring</span>
 </div>
-<span class="discount-badge">29% OFF</span>
+
+<div class="job-meta">
+<span>Experience: 0 – 1 Years</span>
+<span>Location: Remote</span>
+<span>Contract: 6 Months</span>
 </div>
 
-<h3>C Programming</h3>
-
-<p class="course-desc">
-Learn C programming fundamentals including memory management and pointers.
+<p>
+Engage with potential learners and guide them regarding our programs.
+Focus on communication and lead engagement.
 </p>
 
-<div class="price-row">
-<span class="price">₹4999</span>
-<span class="old-price">₹7000</span>
-<span class="mode">Online</span>
+<ul>
+<li>Positions: 10</li>
+<li>Performance based incentives</li>
+<li>PPO based on performance</li>
+</ul>
+
+<a href="register.php" class="apply-btn">Apply Now</a>
+
 </div>
 
-<div class="course-info">
-<span>Batch Size: 30</span>
-<span class="seat-alert">Limited Seats</span>
+
+
+<!-- CAMPUS REP -->
+
+<div class="career-card">
+
+<div class="job-header">
+<h3>Campus Representative</h3>
+<span class="job-status">Actively Hiring</span>
 </div>
 
-<button class="btn-details">View Details</button>
-
-<div class="course-actions">
-<button class="btn-register">Book Demo</button>
-<button class="btn-seat">Reserve Seat</button>
+<div class="job-meta">
+<span>Experience: Fresher</span>
+<span>Location: Remote</span>
 </div>
 
+<p>
+Represent GyanGen Technologies within your campus and help students
+discover industry relevant technology education.
+</p>
+
+<ul>
+<li>Leadership opportunity</li>
+<li>Performance incentives</li>
+<li>Networking exposure</li>
+</ul>
+
+<a href="register.php" class="apply-btn">Apply Now</a>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<section class="hiring-process">
+
+<h2 class="section-title">Our Hiring Process</h2>
+
+<div class="process-grid">
+
+<div class="process-step">
+<h3>1</h3>
+<p>Application Review</p>
+</div>
+
+<div class="process-step">
+<h3>2</h3>
+<p>Initial Interaction</p>
+</div>
+
+<div class="process-step">
+<h3>3</h3>
+<p>Technical / Role Discussion</p>
+</div>
+
+<div class="process-step">
+<h3>4</h3>
+<p>Final Selection</p>
 </div>
 
 </div>
 
 </section>
+
 
 <?php include 'includes/footer.php'; ?>
