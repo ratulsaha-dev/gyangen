@@ -1,0 +1,121 @@
+/* CONTACT HERO */
+
+.contact-hero{
+padding:80px 8%;
+text-align:center;
+max-width:800px;
+margin:auto;
+}
+
+.contact-hero h1{
+font-size:40px;
+margin-bottom:15px;
+}
+
+
+
+/* CONTACT GRID */
+
+.contact-section{
+padding:60px 8%;
+}
+
+.contact-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:40px;
+}
+
+
+
+/* CONTACT INFO */
+
+.contact-info{
+background:#111;
+padding:30px;
+border-radius:10px;
+}
+
+.contact-info p{
+margin-top:10px;
+color:#ccc;
+}
+
+
+
+/* CONTACT FORM */
+
+.contact-form{
+background:#111;
+padding:30px;
+border-radius:10px;
+}
+
+.contact-form form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:10px;
+border:none;
+border-radius:5px;
+background:#222;
+color:white;
+}
+
+.contact-btn{
+background:#FFD700;
+padding:12px;
+border:none;
+border-radius:5px;
+font-weight:600;
+cursor:pointer;
+}
+
+
+
+/* MAP */
+
+.contact-map{
+padding:60px 8%;
+}
+
+
+
+/* TESTIMONIALS */
+
+.testimonial-section{
+padding:80px 8%;
+text-align:center;
+}
+
+.testimonial-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.testimonial-card{
+background:#111;
+padding:25px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.testimonial-card:hover{
+transform:translateY(-5px);
+border:1px solid #FFD700;
+}
+
+.testimonial-card p{
+color:#ccc;
+margin-bottom:15px;
+}
+
+.testimonial-card h4{
+margin-bottom:5px;
+}
