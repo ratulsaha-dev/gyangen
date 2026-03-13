@@ -8,6 +8,7 @@
 <title>GyanGen Technologies</title>
 
 <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
+<link rel="stylesheet" href="css/contact.css?v=<?php echo time(); ?>">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 
