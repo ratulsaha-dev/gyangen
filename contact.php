@@ -2,56 +2,72 @@
 
 <section class="contact-hero">
 
-<h1>Contact Us</h1>
+<div class="container">
+
+<h1>Contact GyanGen Technologies</h1>
 
 <p>
-Have questions about our programs, partnerships, or training sessions?
-Reach out to the GyanGen team and we’ll be happy to assist you.
+Have questions about our courses, partnerships, or training programs?
+Send us a message and our support team will respond shortly.
 </p>
+
+</div>
 
 </section>
 
 
 <section class="contact-section">
 
-<div class="contact-grid">
+<div class="container contact-grid">
 
 
-<!-- CONTACT DETAILS -->
+<!-- CONTACT INFORMATION -->
 
 <div class="contact-info">
 
 <h2>Get in Touch</h2>
 
-<p>📍 HSR Layout, Bangalore</p>
-<p>📞 +91 9832127575</p>
-<p>📧 ops@gyangen.com</p>
+<p><strong>Address</strong><br>
+HSR Layout, Bangalore, India</p>
+
+<p><strong>Phone</strong><br>
++91 9832127575</p>
+
+<p><strong>Email</strong><br>
+ops@gyangen.com</p>
 
 <p>
-Our team is available to answer questions related to courses,
-partnerships, career opportunities, and collaborations.
+Our team supports course inquiries, partnerships, training programs,
+and student onboarding queries.
 </p>
 
 </div>
+
 
 
 <!-- CONTACT FORM -->
 
 <div class="contact-form">
 
-<h2>Send us a Message</h2>
+<h2>Send a Message</h2>
 
-<form>
+<form action="submit-contact.php" method="POST">
 
-<input type="text" placeholder="Your Name" required>
+<label>Your Name *</label>
+<input type="text" name="name" required>
 
-<input type="email" placeholder="Email Address" required>
+<label>Email Address *</label>
+<input type="email" name="email" required>
 
-<input type="text" placeholder="Subject">
+<label>Subject *</label>
+<input type="text" name="subject" required>
 
-<textarea rows="5" placeholder="Your Message"></textarea>
+<label>Your Message *</label>
+<textarea name="message" rows="5" required></textarea>
 
-<button type="submit" class="contact-btn">Send Message</button>
+<button type="submit" class="contact-btn">
+Submit Support Request
+</button>
 
 </form>
 
@@ -63,9 +79,11 @@ partnerships, career opportunities, and collaborations.
 
 
 
-<!-- MAP -->
+<!-- MAP SECTION -->
 
 <section class="contact-map">
+
+<div class="container">
 
 <h2 class="section-title">Our Location</h2>
 
@@ -74,9 +92,10 @@ src="https://www.google.com/maps?q=HSR+Layout+Bangalore&output=embed"
 width="100%"
 height="350"
 style="border:0;"
-allowfullscreen=""
 loading="lazy">
 </iframe>
+
+</div>
 
 </section>
 
@@ -86,19 +105,20 @@ loading="lazy">
 
 <section class="testimonial-section">
 
+<div class="container">
+
 <h2 class="section-title">What Our Learners Say</h2>
 
 <div class="testimonial-grid">
 
-
 <div class="testimonial-card">
 
 <p>
-"GyanGen helped me understand Python from scratch. The sessions were
-very practical and helped me build real projects."
+"GyanGen helped me build strong programming fundamentals.
+The trainers explain concepts very clearly with real-world examples."
 </p>
 
-<h4>— Rahul Verma</h4>
+<h4>Rahul Verma</h4>
 <span>Computer Science Student</span>
 
 </div>
@@ -107,11 +127,11 @@ very practical and helped me build real projects."
 <div class="testimonial-card">
 
 <p>
-"The trainers explain concepts very clearly and provide real-world
-examples. The learning experience is far better than typical online courses."
+"I joined the Python program and it helped me start my journey in
+software development. The mentorship was extremely helpful."
 </p>
 
-<h4>— Sneha Kapoor</h4>
+<h4>Sneha Kapoor</h4>
 <span>Engineering Student</span>
 
 </div>
@@ -120,15 +140,16 @@ examples. The learning experience is far better than typical online courses."
 <div class="testimonial-card">
 
 <p>
-"I joined the GenAI course and it opened my perspective about modern
-AI development. The mentorship is extremely helpful."
+"The GenAI training gave me exposure to modern AI tools and projects.
+Great platform for learning emerging technologies."
 </p>
 
-<h4>— Arjun Mehta</h4>
+<h4>Arjun Mehta</h4>
 <span>Software Developer</span>
 
 </div>
 
+</div>
 
 </div>
 
