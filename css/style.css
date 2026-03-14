@@ -938,6 +938,16 @@ font-weight:700;
 color:#FFD700;
 }
 
+.logo img{
+height:42px;
+width:auto;
+display:block;
+}
+
+.logo img{
+height:36px;
+}
+
 /* NAVIGATION */
 
 .nav-menu{
