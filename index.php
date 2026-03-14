@@ -96,7 +96,113 @@ Want to Become a <span id="roleText"></span>
 </h2>
 
 </section>
+<!-- MARKET DEMAND / ANALYTICS -->
 
+<section class="market-analysis">
+
+<div class="container">
+
+<h2 class="section-title">Technology Skills Demand in the Industry</h2>
+
+<p class="analysis-intro">
+Technology driven industries are rapidly evolving. Companies across sectors are
+actively hiring professionals with strong technical skills and practical knowledge.
+The demand for modern technology expertise continues to grow globally.
+</p>
+
+<div class="analysis-grid">
+
+<div class="analysis-card">
+
+<i class="fas fa-briefcase"></i>
+
+<h3>High Job Demand</h3>
+
+<p>
+Technology roles are among the fastest growing job categories globally.
+Organizations require skilled developers, analysts and engineers.
+</p>
+
+</div>
+
+
+<div class="analysis-card">
+
+<i class="fas fa-chart-line"></i>
+
+<h3>Industry Growth</h3>
+
+<p>
+The technology sector continues to expand every year, creating opportunities
+for students and professionals to build rewarding careers.
+</p>
+
+</div>
+
+
+<div class="analysis-card">
+
+<i class="fas fa-globe"></i>
+
+<h3>Global Opportunities</h3>
+
+<p>
+Technology skills enable professionals to work with global companies,
+remote teams and international projects.
+</p>
+
+</div>
+
+
+<div class="analysis-card">
+
+<i class="fas fa-user-graduate"></i>
+
+<h3>Future Skills</h3>
+
+<p>
+Modern industries require practical technology knowledge,
+problem solving ability and continuous learning.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="analysis-stats">
+
+<div class="stat-box">
+
+<h3>80%+</h3>
+
+<p>Companies prioritize practical technical skills while hiring.</p>
+
+</div>
+
+
+<div class="stat-box">
+
+<h3>10M+</h3>
+
+<p>Technology related jobs expected to grow globally.</p>
+
+</div>
+
+
+<div class="stat-box">
+
+<h3>3x</h3>
+
+<p>Faster career growth in technology driven roles.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
 
 <!-- COURSES SECTION -->
 
@@ -168,7 +274,7 @@ data-desc="Master Java programming, OOP, backend APIs, and real-world projects."
 View Details
 </button>
 
-<button class="btn-regiser">Book Demo</button>
+<button class="btn-register">Book Demo</button>
 <button class="btn-seat">Reserve Seat</button>
 
 </div>
