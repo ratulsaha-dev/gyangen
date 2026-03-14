@@ -3,7 +3,7 @@ include '../includes/config.php';
 
 $tickets = $conn->query("SELECT * FROM support_tickets WHERE archived = 0 ORDER BY created_at DESC");
 ?>
-
+<link rel="stylesheet" href="css/support.css">
 <h1>Support Tickets</h1>
 
 <table border="1" width="100%">
