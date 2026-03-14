@@ -23,7 +23,9 @@
 <div class="nav-container">
 
 <div class="logo">
-Gyan<span>Gen</span> Technologies
+<a href="/index.php">
+<img src="/images/logo.png" alt="GyanGen Technologies">
+</a>
 </div>
 
 <nav class="nav-menu">
