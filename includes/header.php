@@ -33,6 +33,7 @@
 <a href="/index.php">Home</a>
 <a href="/courses.php">Courses</a>
 <a href="/about.php">About</a>
+<a href="products.php">Products</a>
 <!-- <a href="/blog.php">Blog</a> -->
 <a href="/contact.php">Contact</a>
 
