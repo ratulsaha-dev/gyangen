@@ -2094,3 +2094,90 @@ margin-top:10px;
 line-height:1.7;
 opacity:0.9;
 }
+/* PARTNERS SECTION */
+
+.partners-section{
+padding:80px 8%;
+text-align:center;
+}
+
+.partners-intro{
+max-width:800px;
+margin:auto;
+margin-top:15px;
+line-height:1.7;
+opacity:0.9;
+}
+
+.partners-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.partner-card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 6px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.partner-card:hover{
+transform:translateY(-6px);
+border:1px solid #FFD700;
+}
+
+body.dark-mode .partner-card{
+background:#1b1b1b;
+}
+
+.partner-card i{
+font-size:36px;
+color:#FFD700;
+margin-bottom:15px;
+}
+
+.partner-card h3{
+margin-bottom:10px;
+}
+
+.partner-card p{
+font-size:14px;
+line-height:1.6;
+}
+
+
+/* CTA */
+
+.partnership-cta{
+margin-top:50px;
+background:#111;
+color:white;
+padding:40px;
+border-radius:10px;
+}
+
+.partnership-cta h3{
+margin-bottom:10px;
+color:#FFD700;
+}
+
+.partnership-cta p{
+margin-bottom:20px;
+}
+
+.partner-btn{
+display:inline-block;
+padding:10px 22px;
+background:#FFD700;
+color:black;
+border-radius:6px;
+text-decoration:none;
+font-weight:600;
+}
+
+.partner-btn:hover{
+background:#e6c200;
+}
