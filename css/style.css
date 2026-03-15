@@ -2086,3 +2086,11 @@ background:#151515;
 color:#FFD700;
 margin-bottom:8px;
 }
+
+.product-intro{
+max-width:800px;
+margin:auto;
+margin-top:10px;
+line-height:1.7;
+opacity:0.9;
+}
