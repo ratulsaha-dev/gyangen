@@ -204,6 +204,151 @@ problem solving ability and continuous learning.
 
 </section>
 
+<!-- WHY CHOOSE GYANGEN -->
+
+<section class="why-gyangen">
+
+<div class="container">
+
+<h2 class="section-title">Why Learners and Institutions Choose GyanGen</h2>
+
+<p class="why-intro">
+GyanGen Technologies is built to serve not only individual learners, but also schools,
+colleges, organizations, and communities looking for practical technology education,
+industry-oriented training, and scalable digital support solutions.
+</p>
+
+<div class="why-grid">
+
+<div class="why-card">
+<div class="why-icon">
+<i class="fas fa-chart-line"></i>
+</div>
+<h3>Industry-Oriented Learning</h3>
+<p>
+We focus on practical technology skills aligned with modern industry needs,
+helping learners prepare for real-world opportunities instead of only theoretical understanding.
+</p>
+</div>
+
+<div class="why-card">
+<div class="why-icon">
+<i class="fas fa-school"></i>
+</div>
+<h3>School & College Training Programs</h3>
+<p>
+We support institutions with structured training models for school-level technology exposure,
+college readiness programs, and technical upskilling initiatives.
+</p>
+</div>
+
+<div class="why-card">
+<div class="why-icon">
+<i class="fas fa-building"></i>
+</div>
+<h3>Corporate Training Solutions</h3>
+<p>
+Organizations can engage with GyanGen for skill enhancement, digital learning programs,
+and workforce-oriented technology training support.
+</p>
+</div>
+
+<div class="why-card">
+<div class="why-icon">
+<i class="fas fa-headset"></i>
+</div>
+<h3>Support Ticketing Solutions</h3>
+<p>
+Beyond training, we are also building workflow-driven support systems that help teams
+manage requests, communication, and operational efficiency.
+</p>
+</div>
+
+<div class="why-card">
+<div class="why-icon">
+<i class="fas fa-user-tie"></i>
+</div>
+<h3>Hire From Us</h3>
+<p>
+We aim to build a strong pipeline of trained and guided talent so institutions
+and organizations can connect with emerging technology-ready candidates.
+</p>
+</div>
+
+<div class="why-card">
+<div class="why-icon">
+<i class="fas fa-chalkboard-teacher"></i>
+</div>
+<h3>Training Provider Network</h3>
+<p>
+From student training to specialized workshops and technical mentorship,
+we are building a flexible learning ecosystem that can serve multiple audiences.
+</p>
+</div>
+
+</div>
+
+<div class="impact-strip">
+
+<div class="impact-box">
+<h3>Students</h3>
+<p>Career-focused technical learning and guided skill development.</p>
+</div>
+
+<div class="impact-box">
+<h3>Schools & Colleges</h3>
+<p>Structured partner training programs and campus-level initiatives.</p>
+</div>
+
+<div class="impact-box">
+<h3>Organizations</h3>
+<p>Corporate upskilling, hiring support, and technology enablement.</p>
+</div>
+
+<div class="impact-box">
+<h3>Communities</h3>
+<p>Access to practical, scalable, and future-ready learning opportunities.</p>
+</div>
+
+</div>
+
+<div class="overview-band">
+
+<div class="overview-left">
+<h3>One Platform. Multiple Outcomes.</h3>
+<p>
+Whether the goal is to train learners, support institutions, upskill teams,
+manage support workflows, or build hiring pathways, GyanGen Technologies is evolving
+as a practical technology partner for modern education and workforce development.
+</p>
+</div>
+
+<div class="overview-right">
+
+<div class="mini-stat">
+<span class="mini-number">Learning</span>
+<span class="mini-label">Programs for students and professionals</span>
+</div>
+
+<div class="mini-stat">
+<span class="mini-number">Institutions</span>
+<span class="mini-label">School and college partnerships</span>
+</div>
+
+<div class="mini-stat">
+<span class="mini-number">Solutions</span>
+<span class="mini-label">Training, support systems and hiring enablement</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
 <!-- COURSES SECTION -->
 
 <section class="courses">
