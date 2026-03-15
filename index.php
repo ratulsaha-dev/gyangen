@@ -347,6 +347,98 @@ as a practical technology partner for modern education and workforce development
 </div>
 
 </section>
+<!-- INSTITUTIONAL PARTNERSHIPS -->
+
+<section class="partners-section">
+
+<div class="container">
+
+<h2 class="section-title">Institutional Partnerships</h2>
+
+<p class="partners-intro">
+GyanGen Technologies collaborates with educational institutions,
+training centers, and organizations to deliver technology education,
+skill development programs, and workforce readiness initiatives.
+</p>
+
+
+<div class="partners-grid">
+
+<div class="partner-card">
+
+<i class="fas fa-university"></i>
+
+<h3>College Partnerships</h3>
+
+<p>
+We collaborate with universities and colleges to deliver structured
+technology training programs, workshops, and career readiness initiatives.
+</p>
+
+</div>
+
+
+<div class="partner-card">
+
+<i class="fas fa-school"></i>
+
+<h3>School Collaborations</h3>
+
+<p>
+Technology awareness programs designed for school students to introduce
+modern computing and problem-solving skills.
+</p>
+
+</div>
+
+
+<div class="partner-card">
+
+<i class="fas fa-building"></i>
+
+<h3>Corporate Collaboration</h3>
+
+<p>
+Organizations can partner with GyanGen for workforce upskilling,
+technology learning initiatives, and talent development programs.
+</p>
+
+</div>
+
+
+<div class="partner-card">
+
+<i class="fas fa-handshake"></i>
+
+<h3>Training Network</h3>
+
+<p>
+We work with trainers, mentors, and institutions to create a
+distributed learning ecosystem for modern technology education.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="partnership-cta">
+
+<h3>Interested in Collaborating with GyanGen?</h3>
+
+<p>
+We welcome partnerships with institutions, organizations,
+and training providers who share the vision of building
+future-ready technology talent.
+</p>
+
+<a href="contact.php" class="partner-btn">Partner With Us</a>
+
+</div>
+
+</div>
+
+</section>
 
 
 <!-- COURSES SECTION -->
