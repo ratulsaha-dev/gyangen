@@ -7,7 +7,8 @@
 
 <title>GyanGen Technologies</title>
 
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
+<link rel="stylesheet" href="css/contact.css?v=<?php echo time(); ?>">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 
@@ -22,7 +23,9 @@
 <div class="nav-container">
 
 <div class="logo">
-Gyan<span>Gen</span> Technologies
+<a href="/index.php">
+<img src="/images/logo.png" alt="GyanGen Technologies">
+</a>
 </div>
 
 <nav class="nav-menu">
@@ -30,7 +33,8 @@ Gyan<span>Gen</span> Technologies
 <a href="/index.php">Home</a>
 <a href="/courses.php">Courses</a>
 <a href="/about.php">About</a>
-<a href="/blog.php">Blog</a>
+<a href="products.php">Products</a>
+<!-- <a href="/blog.php">Blog</a> -->
 <a href="/contact.php">Contact</a>
 
 </nav>
@@ -38,7 +42,7 @@ Gyan<span>Gen</span> Technologies
 <div class="auth-buttons">
 
 <a href="/login.php" class="login-btn">Login</a>
-<a href="/signup.php" class="signup-btn">Sign Up</a>
+<a href="/register.php" class="signup-btn">Book a Demo</a>
 
 <button id="themeToggle" class="theme-btn">
 <i class="fa-solid fa-moon"></i>
@@ -47,5 +51,12 @@ Gyan<span>Gen</span> Technologies
 </div>
 
 </div>
+<?php
+session_start();
+
+if(!isset($_SESSION['user_id']) && isset($_COOKIE['remember_user'])){
+$_SESSION['user_id'] = $_COOKIE['remember_user'];
+}
+?>
 
 </header>

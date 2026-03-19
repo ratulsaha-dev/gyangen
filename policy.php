@@ -1,16 +1,14 @@
 <?php include 'includes/header.php'; ?>
 
-<link rel="stylesheet" href="css/style.css">
-
 <section class="policy-hero">
 
 <div class="container">
 
-<h1>Privacy & Platform Policies</h1>
+<h1>Privacy Policy & Terms</h1>
 
 <p>
-Transparency builds trust. This page explains how GyanGen Technologies handles user information,
-course access, payments, and learning platform usage.
+GyanGen Technologies is committed to maintaining transparency, data security,
+and a responsible learning environment for students, institutions, and partners.
 </p>
 
 </div>
@@ -20,178 +18,228 @@ course access, payments, and learning platform usage.
 
 <section class="policy-layout">
 
+<div class="policy-container">
+
+<!-- SIDEBAR -->
+
 <div class="policy-sidebar">
 
-<a href="#privacy">Privacy</a>
-<a href="#data">Data Usage</a>
-<a href="#payments">Payments</a>
-<a href="#refund">Refund Policy</a>
-<a href="#content">Content Ownership</a>
-<a href="#updates">Policy Updates</a>
+<a href="#overview">Overview</a>
+<a href="#privacy">Data Privacy</a>
+<a href="#usage">Use of Information</a>
+<a href="#payment">Payment</a>
+<a href="#work">Work Culture</a>
+<a href="#training">Training</a>
+<a href="#limitations">Limitations</a>
 <a href="#contact">Contact</a>
+<a href="#rights">User Rights</a>
+<a href="#certification">Certification</a>
+<a href="#integrity">Integrity</a>
 
 </div>
 
 
+<!-- CONTENT -->
 
 <div class="policy-content">
 
 
-<section id="privacy" class="policy-block">
+<!-- 1 -->
 
-<h2>Privacy Protection</h2>
+<div class="policy-block" id="overview">
 
-<p>
-GyanGen Technologies collects minimal information required for learning services,
-such as name, email address, phone number, and course interest.
-</p>
+<h2>1. Overview</h2>
 
 <p>
-This information is used only for educational communication, demo scheduling,
-student support, and platform improvement.
+GyanGen Technologies is an early-stage technology education platform focused on
+building practical skills and industry readiness. As a growing startup, we are
+continuously improving our services and offerings.
 </p>
 
-<div class="policy-highlight">
-We do not sell or distribute user data to third-party marketing organizations.
 </div>
 
-</section>
 
+<!-- 2 -->
 
+<div class="policy-block" id="privacy">
 
-<section id="data" class="policy-block">
+<h2>2. Data Privacy</h2>
 
-<h2>How Information Is Used</h2>
+<p>
+We collect basic user information such as name, email, phone number, and
+organizational details to provide our services effectively.
+</p>
 
 <ul>
-
-<li>Course enrollment communication</li>
-<li>Demo class scheduling</li>
-<li>Student support and mentorship coordination</li>
-<li>Platform improvement and service updates</li>
-
+<li>We do not sell user data to third-party marketing agencies.</li>
+<li>Data is used only for communication and training.</li>
+<li>Access is restricted to authorized personnel only.</li>
 </ul>
 
-<p>
-Data collected through the website is used solely to improve the learning experience
-and maintain communication with registered learners.
-</p>
+<div class="policy-highlight">
+We are committed to protecting user data and improving security practices.
+</div>
 
-</section>
-
+</div>
 
 
-<section id="payments" class="policy-block">
+<!-- 3 -->
 
-<h2>Payments & Enrollment</h2>
+<div class="policy-block" id="usage">
 
-<p>
-Certain learning programs offered by GyanGen Technologies may require enrollment fees.
-Fee structures are communicated clearly before any payment is requested.
-</p>
+<h2>3. Use of Information</h2>
 
-<p>
-As an early-stage education platform, course structures and pricing may evolve
-as we expand the learning ecosystem and introduce new programs.
-</p>
+<ul>
+<li>Course communication and updates</li>
+<li>Support ticket handling</li>
+<li>Improving user experience</li>
+<li>Certification and training support</li>
+</ul>
+
+</div>
+
+
+<!-- 4 -->
+
+<div class="policy-block" id="payment">
+
+<h2>4. Payment & Refund Policy</h2>
+
+<ul>
+<li>Demo classes are recommended before payment</li>
+<li>Refunds are case-based and not guaranteed</li>
+<li>Accessed courses are non-refundable</li>
+</ul>
 
 <div class="policy-note">
-All learners are encouraged to attend demo classes before making payment decisions.
-</div>
-
-</section>
-
-
-
-<section id="refund" class="policy-block">
-
-<h2>Refund Policy</h2>
-
-<div class="refund-timeline">
-
-<div class="refund-step">
-<h3>Before Enrollment</h3>
-<p>
-Students can attend demo sessions to evaluate the course before making any payment.
-</p>
-</div>
-
-<div class="refund-step">
-<h3>After Payment</h3>
-<p>
-Refunds are not automatically guaranteed once enrollment is confirmed,
-as course seats, resources, and mentorship planning are allocated.
-</p>
-</div>
-
-<div class="refund-step">
-<h3>Exceptional Cases</h3>
-<p>
-Refunds may be considered for duplicate transactions, payment gateway errors,
-or course cancellation initiated by the organization.
-</p>
+We focus on delivering value rather than transactional services.
 </div>
 
 </div>
 
-</section>
+
+<!-- 5 -->
+
+<div class="policy-block" id="work">
+
+<h2>5. Work Culture & Collaboration</h2>
+
+<ul>
+<li>Primary mode is remote</li>
+<li>On-site required for high-priority tasks</li>
+<li>Communication of availability is mandatory</li>
+<li>Outcome-driven work model</li>
+</ul>
+
+<div class="policy-highlight">
+We promote ownership, flexibility, and continuous learning.
+</div>
+
+</div>
 
 
+<!-- 6 -->
 
-<section id="content" class="policy-block">
+<div class="policy-block" id="training">
 
-<h2>Intellectual Property</h2>
+<h2>6. Training Model</h2>
 
-<p>
-All learning materials including lectures, documents, assignments,
-and course frameworks are intellectual property of GyanGen Technologies.
-</p>
+<ul>
+<li>Batch-wise learning</li>
+<li>Weekday & weekend options</li>
+<li>Practical project-based approach</li>
+</ul>
 
-<p>
-Unauthorized distribution, recording, reproduction, or commercial use
-of these materials is strictly prohibited.
-</p>
-
-</section>
+</div>
 
 
+<!-- 7 -->
 
-<section id="updates" class="policy-block">
+<div class="policy-block" id="limitations">
 
-<h2>Policy Evolution</h2>
-
-<p>
-GyanGen Technologies is an evolving education initiative.
-Policies may be updated periodically as the organization expands
-its programs and services.
-</p>
-
-<p>
-Users are encouraged to review this page periodically
-for updated guidelines.
-</p>
-
-</section>
-
-
-
-<section id="contact" class="policy-block">
-
-<h2>Contact Information</h2>
+<h2>7. Limitation of Services</h2>
 
 <p>
-For policy clarification or support requests, you may contact us.
+Features, schedules, and offerings may evolve as we grow.
+We reserve the right to update policies and structures.
 </p>
+
+</div>
+
+
+<!-- 8 -->
+
+<div class="policy-block" id="contact">
+
+<h2>8. Contact</h2>
 
 <p>
-
-Email: ops@gyangen.com<br>
-Phone: 9832127575
-
+📧 ops@gyangen.com<br>
+📞 +91 9832127575
 </p>
 
-</section>
+</div>
 
+
+<!-- 9 -->
+
+<div class="policy-block" id="rights">
+
+<h2>9. User Rights</h2>
+
+<ul>
+<li>Access stored data</li>
+<li>Request corrections</li>
+<li>Request data deletion (where applicable)</li>
+<li>Opt out of communications</li>
+</ul>
+
+<div class="policy-highlight">
+We ensure transparency and user control over data.
+</div>
+
+</div>
+
+
+<!-- 10 -->
+
+<div class="policy-block" id="certification">
+
+<h2>10. Certification Policy</h2>
+
+<ul>
+<li>Issued after course completion</li>
+<li>Represents learning, not job guarantee</li>
+<li>Misuse leads to revocation</li>
+</ul>
+
+<div class="policy-note">
+Certificates validate skills, not formal accreditation.
+</div>
+
+</div>
+
+
+<!-- 11 -->
+
+<div class="policy-block" id="integrity">
+
+<h2>11. Academic Integrity</h2>
+
+<ul>
+<li>No plagiarism or cheating</li>
+<li>No unauthorized content sharing</li>
+<li>Violations may lead to account restriction</li>
+</ul>
+
+<div class="policy-highlight">
+We value genuine learning and ethical practices.
+</div>
+
+</div>
+
+
+</div>
 
 </div>
 

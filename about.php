@@ -150,7 +150,7 @@ GyanGen Technologies is guided by engineers and industry professionals who bring
 
 <div class="leader-card">
 <h3>Arindam Chatterjee</h3>
-<p>COO • Co-founder</p>
+<p>Chief Cybersecurity Officer (CCO) • Co-founder</p>
 </div>
 
 <!-- <div class="leader-card">

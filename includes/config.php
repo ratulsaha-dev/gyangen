@@ -1,9 +1,14 @@
 <?php
 
-$conn = mysqli_connect("localhost","root","","gyangen");
+$servername = "localhost";
+$username = "u533605425_gyangen_ratul";
+$password = "GyanGen@26";
+$dbname = "u533605425_gyangen";
 
-if(!$conn){
-    die("Database connection failed");
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Database connection failed: " . $conn->connect_error);
 }
 
 ?>

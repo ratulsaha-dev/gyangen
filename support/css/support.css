@@ -1,0 +1,304 @@
+/* SUPPORT DASHBOARD GLOBAL */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0d0d0d;
+color:#ffffff;
+}
+
+/* CONTAINER */
+
+.support-container{
+width:92%;
+max-width:1400px;
+margin:auto;
+padding:40px 0;
+}
+
+/* PAGE TITLE */
+
+.support-title{
+font-size:28px;
+margin-bottom:25px;
+font-weight:600;
+}
+
+/* SEARCH BAR */
+
+.support-search{
+margin-bottom:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:15px;
+}
+
+.support-search input{
+width:350px;
+padding:10px 12px;
+border-radius:6px;
+border:none;
+background:#1c1c1c;
+color:white;
+}
+
+.support-search input:focus{
+outline:none;
+border:1px solid #FFD700;
+}
+
+/* FILTER SECTION */
+
+.support-filters{
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+margin-bottom:20px;
+}
+
+.support-filters input,
+.support-filters select{
+padding:8px 10px;
+background:#1b1b1b;
+border:none;
+border-radius:5px;
+color:white;
+}
+
+/* TABLE */
+
+.ticket-table{
+width:100%;
+border-collapse:collapse;
+background:#151515;
+border-radius:8px;
+overflow:hidden;
+}
+
+.ticket-table th{
+text-align:left;
+padding:14px;
+background:#1f1f1f;
+font-size:14px;
+color:#FFD700;
+}
+
+.ticket-table td{
+padding:14px;
+border-top:1px solid #2a2a2a;
+font-size:14px;
+}
+
+.ticket-table tr:hover{
+background:#1d1d1d;
+}
+
+/* STATUS BADGES */
+
+.status{
+padding:5px 10px;
+border-radius:20px;
+font-size:12px;
+font-weight:500;
+}
+
+.status-open{
+background:#28a745;
+color:white;
+}
+
+.status-progress{
+background:#ff9800;
+color:white;
+}
+
+.status-closed{
+background:#f44336;
+color:white;
+}
+
+.status-waiting{
+background:#3f51b5;
+color:white;
+}
+
+/* ACTION BUTTON */
+
+.ticket-view-btn{
+padding:6px 12px;
+background:#FFD700;
+border:none;
+border-radius:4px;
+font-size:13px;
+cursor:pointer;
+}
+
+.ticket-view-btn:hover{
+background:#e6c200;
+}
+
+/* TICKET DETAIL PAGE */
+
+.ticket-wrapper{
+max-width:900px;
+margin:auto;
+background:#151515;
+padding:30px;
+border-radius:10px;
+}
+
+.ticket-header{
+margin-bottom:20px;
+}
+
+.ticket-header h2{
+margin-bottom:10px;
+}
+
+.ticket-meta{
+font-size:14px;
+color:#cccccc;
+line-height:1.6;
+}
+
+.ticket-body{
+margin-top:20px;
+padding:20px;
+background:#1c1c1c;
+border-radius:6px;
+line-height:1.6;
+}
+
+/* REPLY SECTION */
+
+.reply-box{
+margin-top:30px;
+}
+
+.reply-box textarea{
+width:100%;
+height:140px;
+padding:12px;
+border-radius:6px;
+border:none;
+background:#1b1b1b;
+color:white;
+margin-top:10px;
+}
+
+.reply-box textarea:focus{
+outline:none;
+border:1px solid #FFD700;
+}
+
+.reply-options{
+display:flex;
+gap:10px;
+margin-top:10px;
+}
+
+.reply-options input{
+flex:1;
+padding:8px;
+background:#1b1b1b;
+border:none;
+border-radius:5px;
+color:white;
+}
+
+/* SEND BUTTON */
+
+.reply-btn{
+margin-top:12px;
+padding:10px 18px;
+background:#FFD700;
+border:none;
+border-radius:5px;
+cursor:pointer;
+font-weight:600;
+}
+
+.reply-btn:hover{
+background:#e6c200;
+}
+
+/* REPLY THREAD */
+
+.reply-thread{
+margin-top:25px;
+}
+
+.reply-message{
+background:#1b1b1b;
+padding:15px;
+border-radius:6px;
+margin-bottom:10px;
+}
+
+.reply-meta{
+font-size:12px;
+color:#999;
+margin-bottom:5px;
+}
+
+/* CTRL+K SEARCH MODAL */
+
+.search-overlay{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.85);
+display:none;
+justify-content:center;
+align-items:center;
+z-index:9999;
+}
+
+.search-box{
+width:500px;
+background:#1c1c1c;
+padding:20px;
+border-radius:10px;
+}
+
+.search-box input{
+width:100%;
+padding:12px;
+background:#111;
+border:none;
+border-radius:6px;
+color:white;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.support-search{
+flex-direction:column;
+align-items:flex-start;
+}
+
+.support-search input{
+width:100%;
+}
+
+.ticket-table th,
+.ticket-table td{
+font-size:12px;
+padding:10px;
+}
+
+.ticket-wrapper{
+padding:20px;
+}
+
+}
