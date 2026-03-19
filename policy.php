@@ -16,30 +16,52 @@ and a responsible learning environment for students, institutions, and partners.
 </section>
 
 
-
 <section class="policy-layout">
 
-<div class="container policy-content">
+<div class="policy-container">
+
+<!-- SIDEBAR -->
+
+<div class="policy-sidebar">
+
+<a href="#overview">Overview</a>
+<a href="#privacy">Data Privacy</a>
+<a href="#usage">Use of Information</a>
+<a href="#payment">Payment</a>
+<a href="#work">Work Culture</a>
+<a href="#training">Training</a>
+<a href="#limitations">Limitations</a>
+<a href="#contact">Contact</a>
+<a href="#rights">User Rights</a>
+<a href="#certification">Certification</a>
+<a href="#integrity">Integrity</a>
+
+</div>
 
 
-<!-- INTRO -->
+<!-- CONTENT -->
 
-<div class="policy-block">
+<div class="policy-content">
+
+
+<!-- 1 -->
+
+<div class="policy-block" id="overview">
 
 <h2>1. Overview</h2>
 
 <p>
 GyanGen Technologies is an early-stage technology education platform focused on
 building practical skills and industry readiness. As a growing startup, we are
-continuously improving our services, systems, and offerings.
+continuously improving our services and offerings.
 </p>
 
 </div>
 
 
-<!-- DATA PRIVACY -->
+<!-- 2 -->
 
-<div class="policy-block">
+<div class="policy-block" id="privacy">
 
 <h2>2. Data Privacy</h2>
 
@@ -50,127 +72,106 @@ organizational details to provide our services effectively.
 
 <ul>
 <li>We do not sell user data to third-party marketing agencies.</li>
-<li>Data is used only for communication, training, and platform improvement.</li>
-<li>Access to user data is restricted to authorized personnel only.</li>
+<li>Data is used only for communication and training.</li>
+<li>Access is restricted to authorized personnel only.</li>
 </ul>
 
 <div class="policy-highlight">
-We are committed to protecting user data and continuously improving our security practices.
+We are committed to protecting user data and improving security practices.
 </div>
 
 </div>
 
 
-<!-- USAGE -->
+<!-- 3 -->
 
-<div class="policy-block">
+<div class="policy-block" id="usage">
 
 <h2>3. Use of Information</h2>
 
-<p>
-User data may be used for:
-</p>
-
 <ul>
 <li>Course communication and updates</li>
-<li>Support ticket handling and issue resolution</li>
-<li>Improving learning programs and user experience</li>
-<li>Providing certification and training support</li>
+<li>Support ticket handling</li>
+<li>Improving user experience</li>
+<li>Certification and training support</li>
 </ul>
 
 </div>
 
 
-<!-- PAYMENT & REFUND -->
+<!-- 4 -->
 
-<div class="policy-block">
+<div class="policy-block" id="payment">
 
 <h2>4. Payment & Refund Policy</h2>
 
-<p>
-GyanGen Technologies is currently in a growth phase and operates on a
-structured learning model.
-</p>
-
 <ul>
-<li>All learners are encouraged to attend demo sessions before enrollment.</li>
-<li>Refunds are not guaranteed and will be reviewed case-by-case.</li>
-<li>Once a course is accessed, refunds may not be applicable.</li>
+<li>Demo classes are recommended before payment</li>
+<li>Refunds are case-based and not guaranteed</li>
+<li>Accessed courses are non-refundable</li>
 </ul>
 
 <div class="policy-note">
-We focus on delivering value-driven learning rather than transactional services.
+We focus on delivering value rather than transactional services.
 </div>
 
 </div>
 
 
-<!-- WORK CULTURE -->
+<!-- 5 -->
 
-<div class="policy-block">
+<div class="policy-block" id="work">
 
-<h2>5. Work Culture & Collaboration Model</h2>
-
-<p>
-GyanGen operates on a flexible and performance-driven work culture.
-</p>
+<h2>5. Work Culture & Collaboration</h2>
 
 <ul>
-<li>Primary mode of work is remote.</li>
-<li>On-site collaboration may be required for high-priority tasks.</li>
-<li>Team members are expected to communicate availability and location when needed.</li>
-<li>Work is outcome-focused rather than strictly time-based.</li>
+<li>Primary mode is remote</li>
+<li>On-site required for high-priority tasks</li>
+<li>Communication of availability is mandatory</li>
+<li>Outcome-driven work model</li>
 </ul>
 
 <div class="policy-highlight">
-We promote a culture of responsibility, ownership, and continuous learning.
+We promote ownership, flexibility, and continuous learning.
 </div>
 
 </div>
 
 
-<!-- TRAINING MODEL -->
+<!-- 6 -->
 
-<div class="policy-block">
+<div class="policy-block" id="training">
 
-<h2>6. Training & Learning Model</h2>
-
-<p>
-Our programs are designed to be flexible and accessible for students and professionals.
-</p>
+<h2>6. Training Model</h2>
 
 <ul>
-<li>Batch-wise learning structure</li>
-<li>Weekday and weekend options</li>
-<li>Focus on practical, real-world applications</li>
+<li>Batch-wise learning</li>
+<li>Weekday & weekend options</li>
+<li>Practical project-based approach</li>
 </ul>
 
 </div>
 
 
-<!-- LIMITATION -->
+<!-- 7 -->
 
-<div class="policy-block">
+<div class="policy-block" id="limitations">
 
 <h2>7. Limitation of Services</h2>
 
 <p>
-As a developing platform, certain features and services may evolve over time.
-We reserve the right to update course structures, schedules, and policies.
+Features, schedules, and offerings may evolve as we grow.
+We reserve the right to update policies and structures.
 </p>
 
 </div>
 
 
-<!-- CONTACT -->
+<!-- 8 -->
 
-<div class="policy-block">
+<div class="policy-block" id="contact">
 
 <h2>8. Contact</h2>
-
-<p>
-For any policy-related queries, you can reach us at:
-</p>
 
 <p>
 📧 ops@gyangen.com<br>
@@ -179,68 +180,65 @@ For any policy-related queries, you can reach us at:
 
 </div>
 
-</div>
-<div class="policy-block">
+
+<!-- 9 -->
+
+<div class="policy-block" id="rights">
 
 <h2>9. User Rights</h2>
 
-<p>
-Users of GyanGen Technologies have the right to understand, control,
-and manage how their personal information is used within the platform.
-</p>
-
 <ul>
-<li>Users can request access to the data stored about them.</li>
-<li>Users may request correction of inaccurate or outdated information.</li>
-<li>Users can request deletion of their personal data, subject to system and legal limitations.</li>
-<li>Users may opt out of non-essential communications at any time.</li>
+<li>Access stored data</li>
+<li>Request corrections</li>
+<li>Request data deletion (where applicable)</li>
+<li>Opt out of communications</li>
 </ul>
 
 <div class="policy-highlight">
-We aim to maintain transparency and give users reasonable control over their data.
+We ensure transparency and user control over data.
 </div>
 
 </div>
-<div class="policy-block">
+
+
+<!-- 10 -->
+
+<div class="policy-block" id="certification">
 
 <h2>10. Certification Policy</h2>
 
-<p>
-GyanGen Technologies provides certifications to learners based on
-course completion and participation criteria.
-</p>
-
 <ul>
-<li>Certificates are issued only after successful completion of course requirements.</li>
-<li>Certificates reflect participation and learning, not guaranteed employment.</li>
-<li>Misuse or falsification of certificates is strictly prohibited.</li>
-<li>GyanGen reserves the right to revoke certificates in case of misconduct or fraud.</li>
+<li>Issued after course completion</li>
+<li>Represents learning, not job guarantee</li>
+<li>Misuse leads to revocation</li>
 </ul>
 
 <div class="policy-note">
-Certificates are intended to validate learning and skill development,
-not act as official accreditation unless explicitly stated.
+Certificates validate skills, not formal accreditation.
 </div>
 
 </div>
-<div class="policy-block">
 
-<h2>11. Academic Integrity & Platform Usage</h2>
 
-<p>
-GyanGen Technologies promotes ethical learning practices and responsible
-use of its platform and resources.
-</p>
+<!-- 11 -->
+
+<div class="policy-block" id="integrity">
+
+<h2>11. Academic Integrity</h2>
 
 <ul>
-<li>Users are expected to complete assignments and learning activities independently.</li>
-<li>Plagiarism, cheating, or misuse of course content is not allowed.</li>
-<li>Sharing paid or restricted content without permission is prohibited.</li>
-<li>Any misuse of platform resources may lead to restricted access or account termination.</li>
+<li>No plagiarism or cheating</li>
+<li>No unauthorized content sharing</li>
+<li>Violations may lead to account restriction</li>
 </ul>
 
 <div class="policy-highlight">
-We believe in building genuine skills and maintaining integrity in learning.
+We value genuine learning and ethical practices.
+</div>
+
+</div>
+
+
 </div>
 
 </div>

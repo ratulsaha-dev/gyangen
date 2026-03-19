@@ -298,3 +298,53 @@ sub.style.display === "block" ? "none" : "block";
 });
 
 });
+
+// SMOOTH SCROLL
+
+document.querySelectorAll('.policy-sidebar a').forEach(anchor => {
+
+anchor.addEventListener('click', function(e){
+
+e.preventDefault();
+
+const target = document.querySelector(this.getAttribute('href'));
+
+target.scrollIntoView({
+behavior: 'smooth'
+});
+
+});
+
+});
+
+
+// ACTIVE LINK ON SCROLL
+
+const sections = document.querySelectorAll(".policy-block");
+const navLinks = document.querySelectorAll(".policy-sidebar a");
+
+window.addEventListener("scroll", () => {
+
+let current = "";
+
+sections.forEach(section => {
+
+const sectionTop = section.offsetTop - 150;
+
+if (scrollY >= sectionTop) {
+current = section.getAttribute("id");
+}
+
+});
+
+navLinks.forEach(link => {
+
+link.classList.remove("active");
+
+if (link.getAttribute("href").includes(current)) {
+link.classList.add("active");
+}
+
+});
+
+});
