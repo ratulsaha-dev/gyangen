@@ -3,79 +3,58 @@ document.addEventListener("DOMContentLoaded", function(){
 /* ---------------------------
    HERO TEXT ANIMATION
 ---------------------------- */
+// MAIN TAGLINE
 
-const mainText = "Build your skill with us";
+const mainText = "Build Your Skills. Get Trained. Get Hired.";
+document.getElementById("mainText").innerText = mainText;
 
-const roles = [
-"Java Developer",
-"Python Developer",
-"GenAI Developer",
-"Frontend Developer",
-"Data Analyst",
-"Data Scientist"
+
+// WHAT WE DO ANIMATION
+
+const dynamicRoles = [
+"We Train",
+"We Build Skills",
+"We Provide Courses",
+"We Collaborate with Institutions",
+"We Enable Hiring"
 ];
 
-const mainElement = document.getElementById("mainText");
-const roleElement = document.getElementById("roleText");
+const dynamicElement = document.getElementById("dynamicText");
 
-let roleIndex = 0;
-let charIndex = 0;
+let dIndex = 0;
+let dChar = 0;
 
-if(mainElement && roleElement){
+function typeDynamic(){
 
-mainElement.innerText = mainText;
-
-function typeRole(){
-
-if(charIndex < roles[roleIndex].length){
-
-roleElement.innerHTML += roles[roleIndex].charAt(charIndex);
-
-charIndex++;
-
-setTimeout(typeRole,80);
-
+if(dChar < dynamicRoles[dIndex].length){
+dynamicElement.innerHTML += dynamicRoles[dIndex].charAt(dChar);
+dChar++;
+setTimeout(typeDynamic,50);
 }
-
 else{
-
-setTimeout(eraseRole,1500);
-
+setTimeout(eraseDynamic,1500);
 }
 
 }
 
-function eraseRole(){
+function eraseDynamic(){
 
-if(charIndex > 0){
-
-roleElement.innerHTML = roles[roleIndex].substring(0,charIndex-1);
-
-charIndex--;
-
-setTimeout(eraseRole,40);
-
+if(dChar > 0){
+dynamicElement.innerHTML = dynamicRoles[dIndex].substring(0,dChar-1);
+dChar--;
+setTimeout(eraseDynamic,30);
 }
-
 else{
-
-roleIndex++;
-
-if(roleIndex >= roles.length){
-
-roleIndex = 0;
-
+dIndex++;
+if(dIndex >= dynamicRoles.length){
+dIndex = 0;
 }
-
-setTimeout(typeRole,300);
-
+setTimeout(typeDynamic,300);
 }
 
 }
 
-typeRole();
-
-}
+typeDynamic();
 
 
 /* ---------------------------
