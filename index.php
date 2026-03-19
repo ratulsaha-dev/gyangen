@@ -86,14 +86,47 @@ Help students explore technology careers and grow your own leadership skills.
 
 <section class="hero">
 
+<div class="hero-container">
+
+<!-- LEFT CONTENT -->
+
+<div class="hero-left">
+
 <h1 class="main-text">
 <span id="mainText"></span>
 <span class="cursor">|</span>
 </h1>
 
-<h2 class="sub-text">
-Want to Become a <span id="roleText"></span>
+<h2 class="dynamic-text">
+<span id="dynamicText"></span>
 </h2>
+
+<h3 class="sub-text">
+Want to Become a <span id="roleText"></span>
+</h3>
+
+</div>
+
+
+<!-- RIGHT FLOATING ICONS -->
+
+<div class="hero-right">
+
+<div class="floating-icons">
+
+<i class="fab fa-java"></i>
+<i class="fab fa-python"></i>
+<i class="fas fa-brain"></i>
+<i class="fas fa-database"></i>
+<i class="fas fa-chart-line"></i>
+<i class="fas fa-code"></i>
+<i class="fas fa-laptop-code"></i>
+
+</div>
+
+</div>
+
+</div>
 
 </section>
 <!-- MARKET DEMAND / ANALYTICS -->
@@ -729,7 +762,7 @@ View Details
 <?php include 'includes/footer.php'; ?>
 
 
-<script src="js/script.js"></script>
+<script src="js/script.js?v=2"></script>
 
 </body>
 </html>
