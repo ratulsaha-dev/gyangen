@@ -95,6 +95,14 @@ Help students explore technology careers and grow your own leadership skills.
 Want to Become a <span id="roleText"></span>
 </h2>
 
+<div class="hero-buttons">
+
+<a href="courses.php" class="btn-primary">Explore Courses</a>
+
+<a href="register.php" class="btn-secondary">Book Demo</a>
+
+</div>
+
 </section>
 <!-- MARKET DEMAND / ANALYTICS -->
 
