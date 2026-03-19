@@ -1223,6 +1223,37 @@ font-size:22px;
 flex:1;
 display:flex;
 justify-content:center;
+align-items:center;
+min-height:300px;
+}
+
+.floating-icons{
+position:relative;
+width:280px;
+height:280px;
+}
+
+.floating-icons i{
+position:absolute;
+font-size:28px;
+color:#FFD700;
+animation:float 5s infinite ease-in-out;
+}
+
+/* POSITIONS FIX */
+
+.floating-icons i:nth-child(1){top:10px;left:120px;}
+.floating-icons i:nth-child(2){top:60px;left:220px;}
+.floating-icons i:nth-child(3){top:150px;left:240px;}
+.floating-icons i:nth-child(4){top:220px;left:150px;}
+.floating-icons i:nth-child(5){top:180px;left:40px;}
+.floating-icons i:nth-child(6){top:100px;left:10px;}
+.floating-icons i:nth-child(7){top:20px;left:40px;}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-15px);}
+100%{transform:translateY(0);}
 }
 
 

@@ -1,15 +1,17 @@
 document.addEventListener("DOMContentLoaded", function(){
 
-/* ---------------------------
-   HERO TEXT ANIMATION
----------------------------- */
-// MAIN TAGLINE
+/* ===========================
+   HERO MAIN TEXT
+=========================== */
 
 const mainText = "Build Your Skills. Get Trained. Get Hired.";
-document.getElementById("mainText").innerText = mainText;
+const mainEl = document.getElementById("mainText");
+if(mainEl) mainEl.innerText = mainText;
 
 
-// WHAT WE DO ANIMATION
+/* ===========================
+   WHAT WE DO ANIMATION
+=========================== */
 
 const dynamicRoles = [
 "We Train",
@@ -25,7 +27,6 @@ let dIndex = 0;
 let dChar = 0;
 
 function typeDynamic(){
-
 if(dChar < dynamicRoles[dIndex].length){
 dynamicElement.innerHTML += dynamicRoles[dIndex].charAt(dChar);
 dChar++;
@@ -34,32 +35,70 @@ setTimeout(typeDynamic,50);
 else{
 setTimeout(eraseDynamic,1500);
 }
-
 }
 
 function eraseDynamic(){
-
 if(dChar > 0){
 dynamicElement.innerHTML = dynamicRoles[dIndex].substring(0,dChar-1);
 dChar--;
 setTimeout(eraseDynamic,30);
 }
 else{
-dIndex++;
-if(dIndex >= dynamicRoles.length){
-dIndex = 0;
-}
+dIndex = (dIndex + 1) % dynamicRoles.length;
 setTimeout(typeDynamic,300);
 }
-
 }
 
-typeDynamic();
+if(dynamicElement) typeDynamic();
 
 
-/* ---------------------------
-   DARK / LIGHT THEME TOGGLE
----------------------------- */
+/* ===========================
+   ROLE ANIMATION
+=========================== */
+
+const roles = [
+"Java Developer",
+"Python Developer",
+"GenAI Engineer",
+"Frontend Developer",
+"Data Analyst",
+"Data Scientist"
+];
+
+const roleElement = document.getElementById("roleText");
+
+let roleIndex = 0;
+let charIndex = 0;
+
+function typeRole(){
+if(charIndex < roles[roleIndex].length){
+roleElement.innerHTML += roles[roleIndex].charAt(charIndex);
+charIndex++;
+setTimeout(typeRole,80);
+}
+else{
+setTimeout(eraseRole,1500);
+}
+}
+
+function eraseRole(){
+if(charIndex > 0){
+roleElement.innerHTML = roles[roleIndex].substring(0,charIndex-1);
+charIndex--;
+setTimeout(eraseRole,40);
+}
+else{
+roleIndex = (roleIndex + 1) % roles.length;
+setTimeout(typeRole,300);
+}
+}
+
+if(roleElement) typeRole();
+
+
+/* ===========================
+   DARK MODE TOGGLE
+=========================== */
 
 const toggleBtn = document.getElementById("themeToggle");
 
@@ -70,115 +109,95 @@ toggleBtn.addEventListener("click", function(){
 document.body.classList.toggle("dark-mode");
 
 if(document.body.classList.contains("dark-mode")){
-
 localStorage.setItem("theme","dark");
-
 toggleBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
-
 }
-
 else{
-
 localStorage.setItem("theme","light");
-
 toggleBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
-
 }
 
 });
 
 }
 
+// Load saved theme
 const savedTheme = localStorage.getItem("theme");
 
 if(savedTheme === "dark"){
-
 document.body.classList.add("dark-mode");
-
 if(toggleBtn){
 toggleBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
 }
-
 }
 
-});
 
-/* TIMELINE ANIMATION */
+/* ===========================
+   TIMELINE ANIMATION
+=========================== */
 
 const timelineBlocks = document.querySelectorAll(".timeline-block");
 
 function showTimeline(){
-
 const triggerBottom = window.innerHeight * 0.85;
 
 timelineBlocks.forEach(block => {
-
 const blockTop = block.getBoundingClientRect().top;
-
 if(blockTop < triggerBottom){
 block.classList.add("show");
 }
-
 });
-
 }
 
 window.addEventListener("scroll", showTimeline);
 showTimeline();
 
-// scroll
+
+/* ===========================
+   POLICY CARD ANIMATION
+=========================== */
 
 const policyCards = document.querySelectorAll(".policy-card");
 
 function revealPolicy(){
-
 const trigger = window.innerHeight * 0.85;
 
 policyCards.forEach(card => {
-
 const top = card.getBoundingClientRect().top;
-
 if(top < trigger){
 card.style.opacity = 1;
 card.style.transform = "translateY(0)";
 }
-
 });
-
 }
 
-window.addEventListener("scroll",revealPolicy);
+window.addEventListener("scroll", revealPolicy);
 revealPolicy();
 
-// Contextmenu
 
-document.addEventListener("contextmenu", function(e) {
-  e.preventDefault();
+/* ===========================
+   RIGHT CLICK DISABLE
+=========================== */
+
+document.addEventListener("contextmenu", e => e.preventDefault());
+
+document.addEventListener("keydown", function(e){
+if (e.keyCode === 123 ||
+(e.ctrlKey && e.shiftKey && [73,74].includes(e.keyCode)) ||
+(e.ctrlKey && e.keyCode === 85)){
+return false;
+}
 });
 
-document.onkeydown = function(e) {
-  if (e.keyCode == 123) { // F12
-    return false;
-  }
-  if (e.ctrlKey && e.shiftKey && e.keyCode == 73) { // Ctrl+Shift+I
-    return false;
-  }
-  if (e.ctrlKey && e.shiftKey && e.keyCode == 74) { // Ctrl+Shift+J
-    return false;
-  }
-  if (e.ctrlKey && e.keyCode == 85) { // Ctrl+U
-    return false;
-  }
-};
 
-/* REPRESENTATIVE POPUP CONTROL */
-
-document.addEventListener("DOMContentLoaded", function(){
+/* ===========================
+   REPRESENTATIVE POPUP (FIXED)
+=========================== */
 
 const popup = document.getElementById("repPopup");
 const closeBtn = document.querySelector(".rep-close");
 
-if(!popup) return;
+if(popup){
 
 let today = new Date().toDateString();
 
@@ -187,117 +206,89 @@ date: today,
 count: 0
 };
 
-/* reset counter if new day */
-
 if(popupData.date !== today){
 popupData.date = today;
 popupData.count = 0;
 }
 
-/* show popup max 4 times per day */
-
 if(popupData.count < 4){
 
-setTimeout(() => {
+setTimeout(()=>{
 popup.style.display = "flex";
-}, 1500);
+},1500);
 
 popupData.count++;
 
 localStorage.setItem("repPopupData", JSON.stringify(popupData));
+}
+
+if(closeBtn){
+closeBtn.onclick = () => popup.style.display = "none";
+}
+
+window.addEventListener("click", function(e){
+if(e.target === popup){
+popup.style.display = "none";
+}
+});
 
 }
 
-/* close popup */
 
-closeBtn.addEventListener("click", () => {
-popup.style.display = "none";
-});
-
-});
+/* ===========================
+   COURSE MODAL (FIXED)
+=========================== */
 
 const modal = document.getElementById("courseModal");
+const closeModal = document.querySelector(".close-modal");
 
 document.querySelectorAll(".btn-details").forEach(btn => {
-
 btn.addEventListener("click", () => {
-
-modal.style.display = "flex";
-
+if(modal) modal.style.display = "flex";
+});
 });
 
-});
-
-document.querySelector(".close-modal").onclick = function(){
-
-modal.style.display = "none";
-
+if(closeModal){
+closeModal.onclick = () => modal.style.display = "none";
 }
 
-window.onclick = function(event){
-
-if(event.target == modal){
+window.addEventListener("click", function(e){
+if(e.target === modal){
 modal.style.display = "none";
 }
-
-}
-
-const repPopup = document.getElementById("repPopup");
-const repClose = document.querySelector(".rep-close");
-
-window.onload = function(){
-
-setTimeout(()=>{
-repPopup.style.display = "flex";
-},2000);
-
-}
-
-repClose.onclick = function(){
-repPopup.style.display = "none";
-}
-
-window.onclick = function(e){
-if(e.target === repPopup){
-repPopup.style.display = "none";
-}
-}
-
-// Course
-
-document.querySelectorAll(".topic").forEach(button => {
-
-button.addEventListener("click", () => {
-
-const sub = button.nextElementSibling;
-
-sub.style.display =
-sub.style.display === "block" ? "none" : "block";
-
 });
 
+
+/* ===========================
+   COURSE SYLLABUS TOGGLE
+=========================== */
+
+document.querySelectorAll(".topic").forEach(btn => {
+btn.addEventListener("click", () => {
+const sub = btn.nextElementSibling;
+sub.style.display = sub.style.display === "block" ? "none" : "block";
+});
 });
 
-// SMOOTH SCROLL
+
+/* ===========================
+   POLICY SMOOTH SCROLL
+=========================== */
 
 document.querySelectorAll('.policy-sidebar a').forEach(anchor => {
-
 anchor.addEventListener('click', function(e){
-
 e.preventDefault();
-
 const target = document.querySelector(this.getAttribute('href'));
-
-target.scrollIntoView({
-behavior: 'smooth'
+if(target){
+target.scrollIntoView({ behavior: 'smooth' });
+}
 });
-
-});
-
 });
 
 
-// ACTIVE LINK ON SCROLL
+/* ===========================
+   POLICY ACTIVE LINK
+=========================== */
 
 const sections = document.querySelectorAll(".policy-block");
 const navLinks = document.querySelectorAll(".policy-sidebar a");
@@ -307,22 +298,18 @@ window.addEventListener("scroll", () => {
 let current = "";
 
 sections.forEach(section => {
-
 const sectionTop = section.offsetTop - 150;
-
-if (scrollY >= sectionTop) {
+if (window.scrollY >= sectionTop) {
 current = section.getAttribute("id");
 }
-
 });
 
 navLinks.forEach(link => {
-
 link.classList.remove("active");
-
 if (link.getAttribute("href").includes(current)) {
 link.classList.add("active");
 }
+});
 
 });
 
