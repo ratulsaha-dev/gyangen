@@ -192,22 +192,24 @@ revealPolicy();
 //   }
 // };
 
-/* REPRESENTATIVE POPUP CONTROL */
+//Divider
 
-document.addEventListener("DOMContentLoaded", function(){
+// /* REPRESENTATIVE POPUP CONTROL */
 
-const popup = document.getElementById("repPopup");
-const closeBtn = document.querySelector(".rep-close");
+// document.addEventListener("DOMContentLoaded", function(){
 
-if(!popup) return;
+// const popup = document.getElementById("repPopup");
+// const closeBtn = document.querySelector(".rep-close");
 
-let today = new Date().toDateString();
+// if(!popup) return;
 
-let popupData = JSON.parse(localStorage.getItem("repPopupData")) || {
-date: today,
-count: 0
-};
+// let today = new Date().toDateString();
 
+// let popupData = JSON.parse(localStorage.getItem("repPopupData")) || {
+// date: today,
+// count: 0
+// };
+// });
 /* ===========================
    RANDOM POPUP SYSTEM
 =========================== */
@@ -311,7 +313,7 @@ closeBtn.addEventListener("click", () => {
 popup.style.display = "none";
 });
 
-});
+
 
 const modal = document.getElementById("courseModal");
 
