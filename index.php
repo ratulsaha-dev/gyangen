@@ -15,6 +15,137 @@
 
 <body>
 
+<!-- COURSE PROMOTION POPUP -->
+
+<div id="coursePopup" class="rep-popup">
+
+<div class="rep-popup-content">
+
+<span class="rep-close">&times;</span>
+
+<div class="rep-left">
+
+<h2>🔥 20% Early Bird Discount</h2>
+
+<p>
+Upgrade your skills with GyanGen’s industry-focused programs.
+Enroll early and unlock exclusive discounted pricing on all courses.
+</p>
+
+<div class="rep-benefits">
+
+<div class="rep-item">
+<i class="fas fa-bolt"></i>
+<span>Limited Time Offer</span>
+</div>
+
+<div class="rep-item">
+<i class="fas fa-laptop-code"></i>
+<span>Hands-on Projects</span>
+</div>
+
+<div class="rep-item">
+<i class="fas fa-user-graduate"></i>
+<span>Career-Focused Training</span>
+</div>
+
+<div class="rep-item">
+<i class="fas fa-certificate"></i>
+<span>Certification Included</span>
+</div>
+
+</div>
+
+<a href="courses.php" class="rep-btn">
+Explore Courses
+</a>
+
+</div>
+
+<div class="rep-right">
+
+<i class="fas fa-tags"></i>
+
+<h3>Invest in Your Future</h3>
+
+<p>
+Start learning today and gain real-world skills that help you stand out in the job market.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- PARTNERSHIP POPUP -->
+
+<div id="partnerPopup" class="rep-popup">
+
+<div class="rep-popup-content">
+
+<span class="rep-close">&times;</span>
+
+<div class="rep-left">
+
+<h2>🤝 Partner With GyanGen</h2>
+
+<p>
+We collaborate with colleges, schools, and organizations to deliver
+technology training, workforce development, and hiring solutions.
+</p>
+
+<div class="rep-benefits">
+
+<div class="rep-item">
+<i class="fas fa-university"></i>
+<span>College Training Programs</span>
+</div>
+
+<div class="rep-item">
+<i class="fas fa-school"></i>
+<span>School Level Tech Education</span>
+</div>
+
+<div class="rep-item">
+<i class="fas fa-building"></i>
+<span>Corporate Training Solutions</span>
+</div>
+
+<div class="rep-item">
+<i class="fas fa-users"></i>
+<span>Hire Skilled Talent</span>
+</div>
+
+</div>
+
+<p style="margin-top:15px; font-size:14px;">
+📧 ops@gyangen.com <br>
+📞 +91 9832127575 (WhatsApp Available)
+</p>
+
+<a href="contact.php" class="rep-btn">
+Partner With Us
+</a>
+
+</div>
+
+<div class="rep-right">
+
+<i class="fas fa-handshake"></i>
+
+<h3>Grow Together</h3>
+
+<p>
+Build future-ready talent and empower your institution or organization with practical technology education.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
 <!-- Campus Representative Popup -->
 
 <div id="repPopup" class="rep-popup">
