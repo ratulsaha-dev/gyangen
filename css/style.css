@@ -138,6 +138,76 @@ body.dark-mode .hero{
 background:#151515;
 }
 
+/* HERO BUTTONS */
+
+.hero-buttons{
+margin-top:25px;
+display:flex;
+gap:15px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+/* PRIMARY BUTTON (YELLOW) */
+
+.btn-primary{
+background:#FFD700;
+color:black;
+padding:12px 24px;
+border-radius:6px;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn-primary:hover{
+background:#e6c200;
+transform:translateY(-2px);
+}
+
+
+/* SECONDARY BUTTON */
+
+.btn-secondary{
+background:transparent;
+border:2px solid #FFD700;
+color:#FFD700;
+padding:12px 24px;
+border-radius:6px;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn-secondary:hover{
+background:#FFD700;
+color:black;
+transform:translateY(-2px);
+}
+
+
+/* DARK MODE SUPPORT */
+
+body.dark-mode .btn-primary{
+background:#FFD700;
+color:black;
+}
+
+body.dark-mode .btn-secondary{
+border:2px solid #FFD700;
+color:#FFD700;
+}
+
+body.dark-mode .btn-secondary:hover{
+background:#FFD700;
+color:black;
+}
+
+.btn-primary,
+.btn-secondary{
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
 .main-text{
 font-size:56px;
 font-weight:700;
