@@ -208,6 +208,82 @@ date: today,
 count: 0
 };
 
+/* ===========================
+   RANDOM POPUP SYSTEM
+=========================== */
+
+const popups = [
+document.getElementById("popup-rep"),
+document.getElementById("popup-course"),
+document.getElementById("popup-partner")
+];
+
+let popupShown = false;
+let lastPopupTime = localStorage.getItem("lastPopupTime") || 0;
+
+function showRandomPopup(){
+
+if(popupShown) return;
+
+/* limit frequency (1 popup per 2 mins) */
+
+let now = Date.now();
+
+if(now - lastPopupTime < 120000) return;
+
+/* random popup */
+
+let popup = popups[Math.floor(Math.random() * popups.length)];
+
+if(!popup) return;
+
+popup.style.display = "flex";
+
+popupShown = true;
+
+localStorage.setItem("lastPopupTime", now);
+
+/* close logic */
+
+popup.querySelector(".popup-close").onclick = () => {
+popup.style.display = "none";
+popupShown = false;
+};
+
+window.addEventListener("click", function(e){
+if(e.target === popup){
+popup.style.display = "none";
+popupShown = false;
+}
+});
+
+}
+
+
+/* TRIGGER ON SCROLL */
+
+let scrollTriggered = false;
+
+window.addEventListener("scroll", () => {
+
+if(scrollTriggered) return;
+
+/* trigger after user scrolls 40% */
+
+let scrollPercent = (window.scrollY / document.body.scrollHeight) * 100;
+
+if(scrollPercent > 25){
+
+scrollTriggered = true;
+
+/* delay for UX */
+
+setTimeout(showRandomPopup, 1000);
+
+}
+
+});
+
 /* reset counter if new day */
 
 if(popupData.date !== today){
