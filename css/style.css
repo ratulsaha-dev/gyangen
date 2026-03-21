@@ -15,8 +15,9 @@ body {
 }
 
 body.dark-mode {
-    background: #0d0d0d;
-    color: #fff;
+    --about-bg: #0d0d0d;
+    --tile-bg: #161616;
+    --tile-border: #252525;
 }
 
 .container {
@@ -903,9 +904,9 @@ body.dark-mode {
 
 /* 2. GLOBAL SECTION RESET (Fixes the "Huge Gap") */
 .about-section {
-    padding: 60px 8%; /* Reduced from 100px to tighten the layout */
-    background-color: var(--about-bg);
-    color: var(--text-main);
+    padding-top: 40px !important; /* Pull the next section closer */
+    padding-bottom: 60px;
+    margin-top: 0 !important;
 }
 
 .about-section h2 {
@@ -916,11 +917,13 @@ body.dark-mode {
 }
 
 /* 3. TIMELINE GAP FIX */
+/* ELIMINATE GAPS BETWEEN SECTIONS */
 .timeline-container {
-    margin-top: 20px;
-    margin-bottom: 0px; /* Removes the gap after timeline */
-    padding-bottom: 40px;
+    padding-bottom: 20px !important; /* Reduce bottom padding of timeline */
+    margin-bottom: 0 !important;
 }
+
+
 
 /* 4. PREMIUM TILES (Approach & Vision) */
 .approach-grid, .vision-grid {
@@ -931,29 +934,50 @@ body.dark-mode {
 }
 
 .info-tile {
+    position: relative;
     background: var(--tile-bg);
     border: 1px solid var(--tile-border);
-    padding: 40px 30px;
-    border-radius: 20px;
-    text-align: left;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    box-shadow: 0 4px 20px var(--shadow);
-    display: flex;
-    flex-direction: column;
+    padding: 35px;
+    border-radius: 18px;
+    overflow: hidden; /* Keeps the highlight inside the tile */
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1;
+}
+
+.info-tile::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: radial-gradient(circle at center, rgba(255, 215, 0, 0.08) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: -1;
 }
 
 /* The Icon Box (The "Cool" Factor) */
 .info-tile i {
-    width: 50px;
-    height: 50px;
-    background: rgba(255, 215, 0, 0.1);
+    width: 55px;
+    height: 55px;
+    background: rgba(255, 215, 0, 0.12); /* Soft highlight behind icon */
     color: var(--accent);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 12px;
-    font-size: 22px;
+    border-radius: 14px;
+    font-size: 24px;
     margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.info-tile:hover i {
+    transform: scale(1.1) rotate(5deg); /* Small "cool" animation on icon */
+}
+:root {
+    --about-bg: #ffffff;
+    --tile-bg: #ffffff;
+    --tile-border: #eeeeee;
+    --accent: #FFD700;
 }
 
 .info-tile h3 {
@@ -971,9 +995,13 @@ body.dark-mode {
 
 /* Hover State */
 .info-tile:hover {
-    transform: translateY(-10px);
+    transform: translateY(-8px);
     border-color: var(--accent);
-    box-shadow: 0 20px 40px rgba(255, 215, 0, 0.1);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.info-tile:hover::before {
+    opacity: 1; /* Shows the yellow glow on hover */
 }
 
 /* 5. ALTERNATING BACKGROUNDS */
