@@ -1190,3 +1190,178 @@ body.dark-mode .about-section.alt-bg {
         padding: 30px 20px;
     }
 }
+
+/* ==========================================================================
+   PRODUCTS & SOLUTIONS - PREMIUM STYLING
+   ========================================================================== */
+
+/* 1. HERO SECTION */
+.products-hero {
+    padding: 100px 8% 60px;
+    text-align: center;
+    background-color: var(--bg-color); /* Off-white */
+}
+
+.products-hero h1 {
+    font-size: clamp(36px, 5vw, 48px);
+    font-weight: 800;
+    color: var(--text-main);
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.products-hero p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--text-muted);
+}
+
+/* 2. SECTION SPACING & TITLES */
+.products-section {
+    padding: 60px 8%;
+    background-color: var(--bg-color);
+}
+
+/* Alternate Background for visual break */
+.products-section.alt-bg {
+    background-color: var(--section-alt); /* Light grey/off-white */
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--text-main);
+}
+
+.product-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: -30px auto 50px;
+    color: var(--text-muted);
+}
+
+/* 3. PRODUCT GRID & CARDS */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    background: var(--tile-bg); /* Pure white on off-white bg */
+    padding: 40px 30px;
+    border-radius: 24px;
+    border: 1px solid var(--tile-border);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 4px 20px var(--shadow);
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--accent);
+    box-shadow: 0 20px 40px var(--shadow);
+}
+
+/* Icon Box Style */
+.product-card i {
+    width: 60px;
+    height: 60px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    font-size: 26px;
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+
+.product-card:hover i {
+    background: var(--accent);
+    color: #fff;
+}
+
+.product-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: var(--text-main);
+}
+
+.product-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+/* Feature List Inside Card */
+.product-card ul {
+    list-style: none;
+    padding: 0;
+    margin-top: auto; /* Pushes list to bottom */
+    border-top: 1px solid var(--tile-border);
+    padding-top: 20px;
+}
+
+.product-card ul li {
+    font-size: 14px;
+    color: var(--text-main);
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+    font-weight: 500;
+}
+
+.product-card ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: bold;
+}
+
+/* 4. IMPACT SECTION (Who We Serve) */
+.products-impact {
+    padding: 80px 8%;
+    background-color: var(--bg-color);
+}
+
+.impact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.impact-item {
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    background: var(--section-alt);
+    transition: 0.3s;
+}
+
+.impact-item h3 {
+    color: var(--accent);
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.impact-item p {
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+/* 5. RESPONSIVENESS */
+@media (max-width: 768px) {
+    .products-hero { padding: 80px 5% 40px; }
+    .product-card { padding: 30px 20px; }
+    .section-title { font-size: 28px; }
+}
