@@ -15,6 +15,66 @@
 
 <body>
 
+<!-- SUPPORT COMMUNITY POPUP -->
+
+<div id="supportPopup" class="rep-popup">
+
+<div class="rep-popup-content">
+
+<span class="rep-close">&times;</span>
+
+<div class="rep-left">
+
+<h2>💛 Support Our Community</h2>
+
+<p>
+Help us support learners who cannot afford education.
+We are not an NGO, but we try to contribute from both ends — 
+your small support can create real impact.
+</p>
+
+<div class="rep-benefits">
+
+<div class="rep-item">
+<i class="fas fa-heart"></i>
+<span>Support Education</span>
+</div>
+
+<div class="rep-item">
+<i class="fas fa-user-graduate"></i>
+<span>Help Students Grow</span>
+</div>
+
+<div class="rep-item">
+<i class="fas fa-hand-holding-heart"></i>
+<span>Community Driven</span>
+</div>
+
+<div class="rep-item">
+<i class="fas fa-globe"></i>
+<span>Real Impact</span>
+</div>
+
+</div>
+
+</div>
+
+<div class="rep-right">
+
+<img src="images/upi-qr.png" alt="UPI QR" style="width:160px; margin-bottom:15px;">
+
+<h3>Scan & Support</h3>
+
+<p>
+Every contribution helps someone learn and grow.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
 <!-- COURSE PROMOTION POPUP -->
 
 <div id="coursePopup" class="rep-popup">
