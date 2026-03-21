@@ -304,12 +304,19 @@ body.dark-mode .course-modal-content { background: #1b1b1b; color: white; }
    ========================================================================== */
 /* FOOTER */
 
-.footer{
-background:#111;
-color:#ddd;
-padding:60px 8%;
-margin-top:80px;
+.footer {
+    background: var(--section-alt); /* Matches the off-white alt or midnight dark */
+    color: var(--text-main);
+    padding: 80px 8% 40px;
+    border-top: 1px solid var(--tile-border);
+    transition: 0.3s;
 }
+.footer-column h3 {
+    color: var(--accent);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
 body.dark-mode {
     --bg-color: #0d0d0d;
     --text-main: #eeeeee;
@@ -335,10 +342,6 @@ flex:1;
 min-width:220px;
 }
 
-.footer-column h3{
-color:#FFD700;
-margin-bottom:15px;
-}
 
 .footer-column p{
 font-size:14px;
@@ -1011,21 +1014,27 @@ body.dark-mode .timeline-block::after {
    THEME ENGINE - PRIMARY SOURCE OF TRUTH
    ========================================================================== */
 :root {
-    --bg-color: #ffffff;
-    --text-main: #222222;
-    --text-muted: #666666;
-    --tile-bg: #ffffff;
-    --tile-border: #eeeeee;
-    --accent: #FFD700;
-    --shadow: rgba(0, 0, 0, 0.05);
+    /* Premium Off-White Palette */
+    --bg-color: #fcfcf9;         /* Sophisticated Off-White */
+    --section-alt: #f4f4f0;      /* Slightly darker off-white for contrast */
+    --text-main: #1a1a1a;        /* Deep Charcoal (not pure black) */
+    --text-muted: #555555;       /* Soft Grey for descriptions */
+    --tile-bg: #ffffff;          /* Pure white tiles on off-white bg looks premium */
+    --tile-border: rgba(0,0,0,0.05);
+    --accent: #d4af37;           /* Metallic Premium Gold */
+    --accent-soft: rgba(212, 175, 55, 0.1);
+    --shadow: rgba(0, 0, 0, 0.04);
 }
 
 body.dark-mode {
-    --bg-color: #0d0d0d;
-    --text-main: #eeeeee;
-    --text-muted: #aaaaaa;
+    --bg-color: #0a0a0a;         /* Deep Midnight */
+    --section-alt: #111111;
+    --text-main: #e0e0e0;
+    --text-muted: #999999;
     --tile-bg: #161616;
-    --tile-border: #252525;
+    --tile-border: #222222;
+    --accent: #FFD700;           /* Brighter Gold for dark mode */
+    --accent-soft: rgba(255, 215, 0, 0.05);
     --shadow: rgba(0, 0, 0, 0.4);
 }
 
@@ -1041,9 +1050,9 @@ body {
 
 /* 2. GLOBAL SECTION RESET (Fixes the "Huge Gap") */
 .about-section {
-    padding-top: 40px !important; /* Pull the next section closer */
-    padding-bottom: 60px;
-    margin-top: 0 !important;
+    padding: 60px 8%;            /* Reduced padding to close the "huge gap" */
+    background-color: var(--bg-color);
+    color: var(--text-main);
 }
 
 .about-section h2 {
