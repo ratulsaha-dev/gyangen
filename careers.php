@@ -1,224 +1,102 @@
 <?php include 'includes/header.php'; ?>
 
 <section class="careers-hero">
-
-<div class="careers-hero-content">
-
-<h1>Build the Future With Us</h1>
-
-<p>
-GyanGen Technologies is building a new generation of technology education.
-We are looking for passionate people who want to shape the future of learning.
-</p>
-
-<a href="#openings" class="careers-cta">View Open Positions</a>
-
-</div>
-
+    <div class="container">
+        <span class="eyebrow">Join the Mission</span>
+        <h1>Build the Future of <span class="highlight">Tech Education</span></h1>
+        <p>At GyanGen, we don't just teach code; we build careers. Join a team of passionate innovators, educators, and engineers dedicated to bridging the industry-academia gap.</p>
+        <div class="hero-btns">
+            <a href="#openings" class="btn-primary">View Openings</a>
+            <a href="#culture" class="btn-secondary">Our Culture</a>
+        </div>
+    </div>
 </section>
 
+<section class="careers-section" id="openings">
+    <div class="container">
+        <h2 class="section-title">Current Openings</h2>
+        
+        <div class="job-grid">
+            
+            <div class="job-card">
+                <div class="job-head">
+                    <div class="job-tags">
+                        <span class="tag-pill">Full-Time</span>
+                        <span class="tag-pill">Remote</span>
+                    </div>
+                    <h3>Technical Trainer (Full Stack)</h3>
+                </div>
+                <p>Lead advanced workshops on MERN stack and mentor students through real-world project builds.</p>
+                <div class="job-footer">
+                    <div class="job-info">
+                        <span><i class="fas fa-map-marker-alt"></i> India (Remote)</span>
+                        <span><i class="fas fa-wallet"></i> Competitive Pay</span>
+                    </div>
+                    <a href="apply.php?role=trainer" class="btn-apply-small">Apply Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
 
-<section id="openings" class="careers-section">
+            <div class="job-card">
+                <div class="job-head">
+                    <div class="job-tags">
+                        <span class="tag-pill">Internship</span>
+                        <span class="tag-pill">Hybrid</span>
+                    </div>
+                    <h3>Digital Marketing Intern</h3>
+                </div>
+                <p>Help us grow our community and manage social presence across LinkedIn, Instagram, and Twitter.</p>
+                <div class="job-footer">
+                    <div class="job-info">
+                        <span><i class="fas fa-map-marker-alt"></i> Bangalore</span>
+                        <span><i class="fas fa-calendar-alt"></i> 3-6 Months</span>
+                    </div>
+                    <a href="apply.php?role=marketing" class="btn-apply-small">Apply Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
 
-<h2 class="section-title">Open Positions</h2>
+            <div class="job-card">
+                <div class="job-head">
+                    <div class="job-tags">
+                        <span class="tag-pill">Full-Time</span>
+                        <span class="tag-pill">Office</span>
+                    </div>
+                    <h3>Business Development Associate</h3>
+                </div>
+                <p>Partner with colleges and universities to implement GyanGen's training programs across India.</p>
+                <div class="job-footer">
+                    <div class="job-info">
+                        <span><i class="fas fa-map-marker-alt"></i> Bangalore</span>
+                        <span><i class="fas fa-briefcase"></i> 1-3 Yrs Exp</span>
+                    </div>
+                    <a href="apply.php?role=bda" class="btn-apply-small">Apply Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
 
-<div class="career-grid">
-
-
-<!-- SDE INTERN -->
-
-<div class="career-card">
-
-<div class="job-header">
-<h3>SDE Intern</h3>
-<span class="job-status">Actively Hiring</span>
-</div>
-
-<div class="job-meta">
-<span>Experience: 0 – 1 Years</span>
-<span>Location: Remote</span>
-<span>Internship: 4 Months</span>
-</div>
-
-<p>
-Work on real software development tasks and help build the learning platform.
-This internship is designed to give practical engineering exposure.
-</p>
-
-<ul>
-<li>Positions: 10</li>
-<li>Real project experience</li>
-<li>Mentorship from engineers</li>
-<li>Non-paid internship</li>
-</ul>
-
-<a href="register.php" class="apply-btn">Apply Now</a>
-
-</div>
-
-
-
-<!-- SALES INTERN -->
-
-<div class="career-card">
-
-<div class="job-header">
-<h3>Sales Intern</h3>
-<span class="job-status">Actively Hiring</span>
-</div>
-
-<div class="job-meta">
-<span>Experience: 0 – 1 Years</span>
-<span>Location: Remote</span>
-<span>Duration: 6 Months</span>
-</div>
-
-<p>
-Help expand the reach of GyanGen learning programs through outreach,
-partnerships and student engagement.
-</p>
-
-<ul>
-<li>Positions: 10</li>
-<li>Performance based incentives</li>
-<li>PPO based on performance</li>
-</ul>
-
-<a href="register.php" class="apply-btn">Apply Now</a>
-
-</div>
-
-
-
-<!-- TRAINER -->
-
-<div class="career-card">
-
-<div class="job-header">
-<h3>Trainer</h3>
-<span class="job-status">Actively Hiring</span>
-</div>
-
-<div class="job-meta">
-<span>Experience: 6 Months – 5 Years</span>
-<span>Location: Remote</span>
-<span>Type: Part Time</span>
-</div>
-
-<p>
-Deliver online technical sessions and mentor students learning modern
-technology stacks.
-</p>
-
-<ul>
-<li>Positions: 5</li>
-<li>Probation: 6 Months</li>
-<li>Payment per class</li>
-</ul>
-
-<a href="register.php" class="apply-btn">Apply Now</a>
-
-</div>
-
-
-
-<!-- CALL PROCESS -->
-
-<div class="career-card">
-
-<div class="job-header">
-<h3>Call Process Associate</h3>
-<span class="job-status">Actively Hiring</span>
-</div>
-
-<div class="job-meta">
-<span>Experience: 0 – 1 Years</span>
-<span>Location: Remote</span>
-<span>Contract: 6 Months</span>
-</div>
-
-<p>
-Engage with potential learners and guide them regarding our programs.
-Focus on communication and lead engagement.
-</p>
-
-<ul>
-<li>Positions: 10</li>
-<li>Performance based incentives</li>
-<li>PPO based on performance</li>
-</ul>
-
-<a href="register.php" class="apply-btn">Apply Now</a>
-
-</div>
-
-
-
-<!-- CAMPUS REP -->
-
-<div class="career-card">
-
-<div class="job-header">
-<h3>Campus Representative</h3>
-<span class="job-status">Actively Hiring</span>
-</div>
-
-<div class="job-meta">
-<span>Experience: Fresher</span>
-<span>Location: Remote</span>
-</div>
-
-<p>
-Represent GyanGen Technologies within your campus and help students
-discover industry relevant technology education.
-</p>
-
-<ul>
-<li>Leadership opportunity</li>
-<li>Performance incentives</li>
-<li>Networking exposure</li>
-</ul>
-
-<a href="register.php" class="apply-btn">Apply Now</a>
-
-</div>
-
-
-</div>
-
+        </div>
+    </div>
 </section>
 
-
-
-<section class="hiring-process">
-
-<h2 class="section-title">Our Hiring Process</h2>
-
-<div class="process-grid">
-
-<div class="process-step">
-<h3>1</h3>
-<p>Application Review</p>
-</div>
-
-<div class="process-step">
-<h3>2</h3>
-<p>Initial Interaction</p>
-</div>
-
-<div class="process-step">
-<h3>3</h3>
-<p>Technical / Role Discussion</p>
-</div>
-
-<div class="process-step">
-<h3>4</h3>
-<p>Final Selection</p>
-</div>
-
-</div>
-
+<section class="careers-perks alt-bg">
+    <div class="container">
+        <h2 class="section-title">Why Work With Us?</h2>
+        <div class="perks-grid">
+            <div class="perk-item">
+                <i class="fas fa-rocket"></i>
+                <h4>High Growth</h4>
+                <p>We are scaling fast. Your career trajectory will match our speed.</p>
+            </div>
+            <div class="perk-item">
+                <i class="fas fa-laptop"></i>
+                <h4>Modern Stack</h4>
+                <p>Work with the latest technologies and tools in the industry.</p>
+            </div>
+            <div class="perk-item">
+                <i class="fas fa-heart"></i>
+                <h4>Work-Life Balance</h4>
+                <p>We value results over hours. Flexibility is in our DNA.</p>
+            </div>
+        </div>
+    </div>
 </section>
-
 
 <?php include 'includes/footer.php'; ?>

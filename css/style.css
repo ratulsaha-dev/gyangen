@@ -1540,3 +1540,190 @@ body.dark-mode .about-section.alt-bg {
     .product-card { padding: 30px 20px; }
     .section-title { font-size: 28px; }
 }
+
+/* ==========================================================================
+   CAREERS PAGE - PREMIUM RECRUITMENT THEME
+   ========================================================================== */
+
+/* 1. CAREERS HERO */
+.careers-hero {
+    padding: 100px 8% 60px;
+    text-align: center;
+    background-color: var(--bg-color);
+}
+
+.careers-hero h1 {
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 800;
+    color: var(--text-main);
+    margin-bottom: 20px;
+}
+
+.careers-hero p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: var(--text-muted);
+    line-height: 1.8;
+}
+
+/* 2. JOB LISTINGS GRID */
+.careers-section {
+    padding: 60px 8%;
+    background-color: var(--bg-color);
+}
+
+.job-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.job-card {
+    background: var(--tile-bg);
+    padding: 40px;
+    border-radius: 24px;
+    border: 1px solid var(--tile-border);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 4px 20px var(--shadow);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.job-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--accent);
+    box-shadow: 0 20px 40px var(--shadow);
+}
+
+/* Job Tags (Full Time, Remote, etc.) */
+.job-meta {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.job-tag {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 50px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.job-card h3 {
+    font-size: 22px;
+    color: var(--text-main);
+    margin-bottom: 15px;
+}
+
+.job-card p {
+    font-size: 15px;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* 3. APPLICATION BUTTONS */
+.job-actions {
+    margin-top: auto;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-apply {
+    flex: 1;
+    background: var(--accent);
+    color: #000;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-apply:hover {
+    background: #c5a02c; /* Slightly darker gold */
+    transform: scale(1.02);
+}
+
+.btn-outline {
+    flex: 1;
+    background: transparent;
+    color: var(--text-main);
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid var(--tile-border);
+    transition: 0.3s;
+}
+
+.btn-outline:hover {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+}
+
+/* 4. APPLICATION FORM SECTION */
+.apply-now-section {
+    padding: 80px 8%;
+    background-color: var(--section-alt); /* Off-white highlight */
+}
+
+.apply-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--tile-bg);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 10px 40px var(--shadow);
+}
+
+.apply-container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--text-main);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: var(--text-main);
+}
+
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    width: 100%;
+    padding: 14px;
+    border-radius: 12px;
+    border: 1px solid var(--tile-border);
+    background: var(--bg-color);
+    color: var(--text-main);
+    font-size: 15px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+/* 5. RESPONSIVENESS */
+@media (max-width: 768px) {
+    .apply-container { padding: 30px 20px; }
+    .job-actions { flex-direction: column; }
+}
