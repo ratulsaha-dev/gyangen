@@ -111,13 +111,9 @@ body.dark-mode .nav-menu a {
    3. HERO SECTION
    ========================================================================== */
 .hero {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 180px 8% 120px;
+    background: radial-gradient(circle at top right, var(--accent-soft), transparent 40%), var(--bg-color);
     text-align: center;
-    background: #fafafa;
 }
 
 body.dark-mode .hero {
@@ -125,23 +121,32 @@ body.dark-mode .hero {
 }
 
 .main-text {
-    font-size: 56px;
-    font-weight: 700;
+    font-size: clamp(40px, 7vw, 72px);
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 1.1;
+    color: var(--text-main);
 }
 
 .sub-text {
-    font-size: 28px;
-    margin-top: 15px;
-    color: #FFD700;
+    font-size: 26px;
+    margin-top: 20px;
+    color: var(--text-muted);
+    font-weight: 400;
 }
 
-.hero-btns {
-    margin-top: 40px; /* Creates clear space between text and buttons */
+#roleText {
+    color: var(--accent);
+    font-weight: 700;
+    position: relative;
+}
+
+/* Premium Buttons */
+.hero-buttons {
+    margin-top: 50px;
     display: flex;
-    justify-content: center;
     gap: 20px;
-    flex-wrap: wrap; /* Prevents overlap on small screens */
-    width: 100%;
+    justify-content: center;
 }
 
 .cursor {
@@ -158,22 +163,22 @@ body.dark-mode .hero {
    4. SHARED UI ELEMENTS (BUTTONS & CARDS)
    ========================================================================== */
 .btn-primary {
-    background: var(--accent);
-    color: #000 !important;
-    padding: 14px 32px;
-    border-radius: 12px;
-    font-weight: 700;
-    text-decoration: none;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    border: 2px solid var(--accent);
-    display: inline-block;
+    background: var(--text-main);
+    color: #fff !important;
+    padding: 16px 35px;
+    border-radius: 50px; /* Pill shape is more premium */
+    font-weight: 600;
+    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
-
-.btn-primary:hover {
-    background: transparent;
-    color: var(--accent) !important;
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(212, 175, 55, 0.2);
+.btn-primary {
+    background: var(--text-main);
+    color: #fff !important;
+    padding: 16px 35px;
+    border-radius: 50px; /* Pill shape is more premium */
+    font-weight: 600;
+    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 .btn-secondary {
@@ -1182,16 +1187,16 @@ body.dark-mode .timeline-block::after {
    THEME ENGINE - PRIMARY SOURCE OF TRUTH
    ========================================================================== */
 :root {
-    /* Premium Off-White Palette */
-    --bg-color: #fcfcf9;         /* Sophisticated Off-White */
-    --section-alt: #f4f4f0;      /* Slightly darker off-white for contrast */
-    --text-main: #1a1a1a;        /* Deep Charcoal (not pure black) */
-    --text-muted: #555555;       /* Soft Grey for descriptions */
-    --tile-bg: #ffffff;          /* Pure white tiles on off-white bg looks premium */
-    --tile-border: rgba(0,0,0,0.05);
-    --accent: #d4af37;           /* Metallic Premium Gold */
-    --accent-soft: rgba(212, 175, 55, 0.1);
-    --shadow: rgba(0, 0, 0, 0.04);
+    --bg-color: #fcfcf9;         /* Premium Off-White */
+    --section-alt: #f3f3f0;      /* Contrast Off-White */
+    --text-main: #1a1a1a;        /* Deep Charcoal */
+    --text-muted: #626262;       /* Slate Grey */
+    --accent: #d4af37;           /* Metallic Gold */
+    --accent-soft: rgba(212, 175, 55, 0.08);
+    --tile-bg: #ffffff;
+    --tile-border: rgba(0, 0, 0, 0.04);
+    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.03);
+    --shadow-premium: 0 20px 40px rgba(0, 0, 0, 0.06);
 }
 
 body.dark-mode {
