@@ -135,12 +135,13 @@ body.dark-mode .hero {
     color: #FFD700;
 }
 
-.hero-buttons {
-    margin-top: 25px;
+.hero-btns {
+    margin-top: 40px; /* Creates clear space between text and buttons */
     display: flex;
-    gap: 15px;
     justify-content: center;
-    flex-wrap: wrap;
+    gap: 20px;
+    flex-wrap: wrap; /* Prevents overlap on small screens */
+    width: 100%;
 }
 
 .cursor {
@@ -157,36 +158,40 @@ body.dark-mode .hero {
    4. SHARED UI ELEMENTS (BUTTONS & CARDS)
    ========================================================================== */
 .btn-primary {
-    background: #FFD700;
-    color: black;
-    padding: 12px 24px;
-    border-radius: 6px;
+    background: var(--accent);
+    color: #000 !important;
+    padding: 14px 32px;
+    border-radius: 12px;
+    font-weight: 700;
     text-decoration: none;
-    font-weight: 600;
-    transition: 0.3s;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 2px solid var(--accent);
+    display: inline-block;
 }
 
 .btn-primary:hover {
-    background: #e6c200;
-    transform: translateY(-2px);
+    background: transparent;
+    color: var(--accent) !important;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(212, 175, 55, 0.2);
 }
 
 .btn-secondary {
     background: transparent;
-    border: 2px solid #FFD700;
-    color: #FFD700;
-    padding: 12px 24px;
-    border-radius: 6px;
-    text-decoration: none;
+    color: var(--text-main);
+    padding: 14px 32px;
+    border-radius: 12px;
     font-weight: 600;
-    transition: 0.3s;
+    text-decoration: none;
+    border: 2px solid var(--tile-border);
+    transition: all 0.3s ease;
+    display: inline-block;
 }
 
 .btn-secondary:hover {
-    background: #FFD700;
-    color: black;
-    transform: translateY(-2px);
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-soft);
 }
 /* ==========================================================================
    6. FORMS (LOGIN / REGISTER / CAREERS)
@@ -1547,9 +1552,14 @@ body.dark-mode .about-section.alt-bg {
 
 /* 1. HERO SECTION */
 .careers-hero {
-    padding: 100px 8% 60px;
-    background-color: var(--bg-color); /* Off-white */
+    padding: 120px 8% 80px;
+    background: var(--bg-color);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh; /* Ensures the container expands with content */
 }
 
 .careers-hero .eyebrow {
