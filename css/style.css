@@ -878,142 +878,146 @@ body.dark-mode .timeline-block::after {
     font-weight: 700;
 }
 /* ==========================================================================
-   PREMIUM ABOUT PAGE - UNIFIED THEME ENGINE
+   ULTRA-PREMIUM ABOUT PAGE REFINEMENT
    ========================================================================== */
 
-/* 1. DEFINE DYNAMIC COLORS */
+/* 1. THEME VARIABLES (Ensures Dark/Light Mode Consistency) */
 :root {
     --about-bg: #ffffff;
-    --about-text: #444;
     --tile-bg: #ffffff;
-    --tile-border: #f0f0f0;
-    --tile-shadow: rgba(0, 0, 0, 0.05);
+    --tile-border: #f1f1f1;
+    --text-main: #333333;
+    --text-muted: #666666;
     --accent: #FFD700;
+    --shadow: rgba(0, 0, 0, 0.05);
 }
 
 body.dark-mode {
     --about-bg: #0d0d0d;
-    --about-text: #ccc;
     --tile-bg: #161616;
-    --tile-border: #222;
-    --tile-shadow: rgba(0, 0, 0, 0.4);
+    --tile-border: #222222;
+    --text-main: #eeeeee;
+    --text-muted: #aaaaaa;
+    --shadow: rgba(0, 0, 0, 0.4);
 }
 
-/* 2. GLOBAL ABOUT SECTION STYLING */
+/* 2. GLOBAL SECTION RESET (Fixes the "Huge Gap") */
 .about-section {
-    padding: 100px 8%;
-    text-align: center;
+    padding: 60px 8%; /* Reduced from 100px to tighten the layout */
     background-color: var(--about-bg);
-    transition: background 0.3s ease;
+    color: var(--text-main);
 }
 
 .about-section h2 {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 800;
     margin-bottom: 40px;
-    position: relative;
-    display: inline-block;
-    color: inherit;
+    text-align: center;
 }
 
-.about-section h2::after {
-    content: '';
-    position: absolute;
-    width: 60px;
-    height: 4px;
-    background: var(--accent);
-    bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 10px;
+/* 3. TIMELINE GAP FIX */
+.timeline-container {
+    margin-top: 20px;
+    margin-bottom: 0px; /* Removes the gap after timeline */
+    padding-bottom: 40px;
 }
 
-.about-section p {
-    line-height: 1.9;
-    margin-bottom: 30px;
-    font-size: 17px;
-    color: var(--about-text);
-    max-width: 850px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* 3. THE "TILES" (APPROACH & VISION) */
+/* 4. PREMIUM TILES (Approach & Vision) */
 .approach-grid, .vision-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 30px;
-    margin-top: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
 }
 
 .info-tile {
     background: var(--tile-bg);
-    padding: 45px 35px;
-    border-radius: 24px;
-    box-shadow: 0 10px 30px var(--tile-shadow);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: 1px solid var(--tile-border);
+    padding: 40px 30px;
+    border-radius: 20px;
     text-align: left;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 4px 20px var(--shadow);
     display: flex;
     flex-direction: column;
-    gap: 15px;
 }
 
-.info-tile:hover {
-    transform: translateY(-12px);
-    border-color: var(--accent);
-    box-shadow: 0 20px 40px var(--tile-shadow);
-}
-
+/* The Icon Box (The "Cool" Factor) */
 .info-tile i {
-    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 215, 0, 0.1);
     color: var(--accent);
-    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 22px;
+    margin-bottom: 20px;
 }
 
 .info-tile h3 {
     font-size: 22px;
+    margin-bottom: 12px;
     font-weight: 700;
-    color: inherit;
 }
 
-/* 4. PREMIUM GRADIENT SECTION (Optional class for variety) */
-.about-section.premium-alt {
-    background: linear-gradient(180deg, var(--about-bg) 0%, var(--tile-border) 100%);
+.info-tile p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--text-muted);
+    margin: 0; /* Prevents internal paragraph gaps */
 }
 
-/* 5. IMPACT CTA BOX */
+/* Hover State */
+.info-tile:hover {
+    transform: translateY(-10px);
+    border-color: var(--accent);
+    box-shadow: 0 20px 40px rgba(255, 215, 0, 0.1);
+}
+
+/* 5. ALTERNATING BACKGROUNDS */
+.about-section.light-bg {
+    background-color: var(--about-bg);
+}
+
+.about-section.alt-bg {
+    background-color: rgba(255, 215, 0, 0.02); /* Very subtle yellow tint */
+}
+
+body.dark-mode .about-section.alt-bg {
+    background-color: #111111;
+}
+
+/* 6. IMPACT BOX (Building the Future) */
 .impact-cta-box {
-    background: #111; /* Always dark for premium feel */
-    color: #fff;
+    background: #111;
+    color: white;
     padding: 80px 40px;
-    border-radius: 30px;
-    margin-top: 80px;
+    border-radius: 24px;
+    margin: 40px auto;
     text-align: center;
     border: 1px solid #333;
 }
 
 .impact-cta-box h2 {
     color: var(--accent);
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
-
-.impact-cta-box h2::after { display: none; } /* Remove underline for CTA */
 
 .impact-cta-box p {
-    color: #aaa;
+    color: #bbb;
+    font-size: 16px;
     max-width: 700px;
+    margin: 0 auto;
 }
 
-/* 6. MOBILE RESPONSIVENESS */
+/* 7. RESPONSIVE MOBILE FIX */
 @media (max-width: 768px) {
     .about-section {
-        padding: 70px 6%;
-    }
-    .about-section h2 {
-        font-size: 28px;
+        padding: 50px 5%;
     }
     .info-tile {
-        padding: 35px 25px;
+        padding: 30px 20px;
     }
 }
