@@ -1329,7 +1329,7 @@ body.dark-mode .about-section.alt-bg {
 
 /* 4. IMPACT SECTION (Who We Serve) */
 .products-impact {
-    padding: 80px 8%;
+    padding: 40px 8% 80px;
     background-color: var(--bg-color);
 }
 
