@@ -302,29 +302,93 @@ body.dark-mode .course-modal-content { background: #1b1b1b; color: white; }
 /* ==========================================================================
    9. FOOTER
    ========================================================================== */
-.footer {
-    background: #111;
-    color: #ddd;
-    padding: 60px 8%;
-    margin-top: 80px;
+/* FOOTER */
+
+.footer{
+background:#111;
+color:#ddd;
+padding:60px 8%;
+margin-top:80px;
 }
 
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 40px;
+body.dark-mode .footer{
+background:#050505;
 }
 
-.footer-column h3 { color: #FFD700; margin-bottom: 15px; }
-
-.footer-bottom {
-    text-align: center;
-    margin-top: 40px;
-    border-top: 1px solid rgba(255,255,255,0.1);
-    padding-top: 20px;
-    font-size: 13px;
+.footer-container{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:40px;
 }
+
+.footer-column{
+flex:1;
+min-width:220px;
+}
+
+.footer-column h3{
+color:#FFD700;
+margin-bottom:15px;
+}
+
+.footer-column p{
+font-size:14px;
+color:#ccc;
+}
+
+/* QUICK LINKS */
+
+.quick-links{
+list-style:none;
+}
+
+.quick-links li{
+margin-bottom:10px;
+}
+
+.quick-links a{
+text-decoration:none;
+color:#ddd;
+font-size:14px;
+}
+
+.quick-links a:hover{
+color:#FFD700;
+}
+
+/* SOCIAL ICONS */
+
+.social-icons{
+margin-top:15px;
+}
+
+.social-icons a{
+color:white;
+font-size:18px;
+margin-right:15px;
+transition:0.3s;
+}
+
+.social-icons a:hover{
+color:#FFD700;
+transform:scale(1.2);
+}
+
+.footer-map iframe{
+border-radius:10px;
+}
+
+.footer-bottom{
+text-align:center;
+margin-top:40px;
+border-top:1px solid rgba(255,255,255,0.1);
+padding-top:20px;
+font-size:13px;
+color:#aaa;
+}
+
+
 
 /* ==========================================================================
    10. RESPONSIVE DESIGN
