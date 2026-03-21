@@ -1508,6 +1508,7 @@ animation:popupFade 0.4s ease;
 
 body.dark-mode .rep-popup-content{
 background:#1b1b1b;
+color:#ffffff;
 }
 
 /* CLOSE */
