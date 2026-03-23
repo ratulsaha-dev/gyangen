@@ -471,3 +471,18 @@ link.classList.add("active");
 });
 
 });
+// Select all links with hashes
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute('href'));
+        
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start' // Aligns the top of the section to the top of the screen
+            });
+        }
+    });
+});
