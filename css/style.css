@@ -112,8 +112,15 @@ body.dark-mode .nav-menu a {
    ========================================================================== */
 .hero {
     padding: 180px 8% 120px;
-    background: radial-gradient(circle at top right, var(--accent-soft), transparent 40%), var(--bg-color);
+    background: var(--bg-color);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertical Center */
+    align-items: center;     /* Horizontal Center */
+    min-height: 85vh;        /* Uses viewport height to stay centered */
+    width: 100%;
+    box-sizing: border-box;
 }
 
 body.dark-mode .hero {
@@ -121,18 +128,19 @@ body.dark-mode .hero {
 }
 
 .main-text {
-    font-size: clamp(40px, 7vw, 72px);
+    font-size: clamp(38px, 6vw, 68px);
     font-weight: 800;
-    letter-spacing: -2px;
-    line-height: 1.1;
     color: var(--text-main);
+    line-height: 1.1;
+    margin-bottom: 20px;
+    max-width: 900px; /* Prevents text from stretching too wide */
 }
 
 .sub-text {
-    font-size: 26px;
-    margin-top: 20px;
+    font-size: 24px;
     color: var(--text-muted);
-    font-weight: 400;
+    margin-bottom: 45px;
+    max-width: 700px;
 }
 
 #roleText {
@@ -143,10 +151,10 @@ body.dark-mode .hero {
 
 /* Premium Buttons */
 .hero-buttons {
-    margin-top: 50px;
     display: flex;
     gap: 20px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .cursor {
@@ -163,40 +171,36 @@ body.dark-mode .hero {
    4. SHARED UI ELEMENTS (BUTTONS & CARDS)
    ========================================================================== */
 .btn-primary {
-    background: var(--text-main);
-    color: #fff !important;
+    background: var(--accent);
+    color: #000 !important; /* Always black text for readability on Gold */
     padding: 16px 35px;
-    border-radius: 50px; /* Pill shape is more premium */
-    font-weight: 600;
-    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 2px solid var(--accent);
+    box-shadow: 0 10px 20px rgba(212, 175, 55, 0.2);
 }
-.btn-primary {
-    background: var(--text-main);
-    color: #fff !important;
-    padding: 16px 35px;
-    border-radius: 50px; /* Pill shape is more premium */
-    font-weight: 600;
-    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+.btn-primary:hover {
+    transform: translateY(-5px);
+    background: transparent;
+    color: var(--accent) !important;
 }
 
 .btn-secondary {
     background: transparent;
-    color: var(--text-main);
-    padding: 14px 32px;
-    border-radius: 12px;
+    color: var(--text-main) !important; /* Forces white in dark, charcoal in light */
+    padding: 16px 35px;
+    border-radius: 50px;
     font-weight: 600;
     text-decoration: none;
-    border: 2px solid var(--tile-border);
-    transition: all 0.3s ease;
-    display: inline-block;
+    border: 2px solid var(--text-main); /* Border matches text color */
+    transition: 0.3s;
 }
 
 .btn-secondary:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-    background: var(--accent-soft);
+    background: var(--text-main);
+    color: var(--bg-color) !important;
 }
 /* ==========================================================================
    6. FORMS (LOGIN / REGISTER / CAREERS)
