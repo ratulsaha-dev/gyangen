@@ -491,27 +491,31 @@ we are building a flexible learning ecosystem that can serve multiple audiences.
 
 </div>
 
-<div class="impact-strip">
+<div class="impact-grid">
 
-<div class="impact-box">
-<h3>Students</h3>
-<p>Career-focused technical learning and guided skill development.</p>
-</div>
+    <div class="impact-card">
+        <div class="impact-icon"><i class="fas fa-user-graduate"></i></div>
+        <h3>Students</h3>
+        <p>Career-focused technical learning and guided skill development.</p>
+    </div>
 
-<div class="impact-box">
-<h3>Schools & Colleges</h3>
-<p>Structured partner training programs and campus-level initiatives.</p>
-</div>
+    <div class="impact-card">
+        <div class="impact-icon"><i class="fas fa-university"></i></div>
+        <h3>Schools & Colleges</h3>
+        <p>Structured partner training programs and campus-level initiatives.</p>
+    </div>
 
-<div class="impact-box">
-<h3>Organizations</h3>
-<p>Corporate upskilling, hiring support, and technology enablement.</p>
-</div>
+    <div class="impact-card">
+        <div class="impact-icon"><i class="fas fa-building"></i></div>
+        <h3>Organizations</h3>
+        <p>Corporate upskilling, hiring support, and technology enablement.</p>
+    </div>
 
-<div class="impact-box">
-<h3>Communities</h3>
-<p>Access to practical, scalable, and future-ready learning opportunities.</p>
-</div>
+    <div class="impact-card">
+        <div class="impact-icon"><i class="fas fa-users"></i></div>
+        <h3>Communities</h3>
+        <p>Access to practical, scalable, and future-ready learning opportunities.</p>
+    </div>
 
 </div>
 
