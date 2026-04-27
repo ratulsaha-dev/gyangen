@@ -365,48 +365,90 @@ revealPolicy();
 /* ===========================
    FINAL POPUP SYSTEM (FIXED)
 =========================== */
+document.addEventListener("DOMContentLoaded", function() {
+    const popups = [
+        document.getElementById("repPopup"),
+        document.getElementById("coursePopup"),
+        document.getElementById("partnerPopup"),
+        document.getElementById("supportPopup")
+    ].filter(p => p !== null);
 
-const popups = [
-document.getElementById("repPopup"),
-document.getElementById("coursePopup"),
-document.getElementById("partnerPopup"),
-document.getElementById("supportPopup")
-].filter(p => p !== null);
+    // To test effectively, we'll show it if it hasn't been shown in this SESSION
+    let sessionPopup = sessionStorage.getItem("popupShown");
 
-/* show only once */
+    if(!sessionPopup && popups.length > 0) {
+        setTimeout(() => {
+            // Pick a random popup
+            let popup = popups[Math.floor(Math.random() * popups.length)];
+            
+            // Show it
+            popup.style.display = "flex";
+            sessionStorage.setItem("popupShown", "true");
 
-let popupShown = localStorage.getItem("popupShown");
+            // Close logic for the X button
+            const closeBtn = popup.querySelector(".rep-close");
+            if(closeBtn) {
+                closeBtn.onclick = () => {
+                    popup.style.display = "none";
+                };
+            }
 
-if(!popupShown && popups.length > 0){
-
-setTimeout(() => {
-
-let popup = popups[Math.floor(Math.random() * popups.length)];
-
-popup.style.display = "flex";
-
-/* mark as shown */
-localStorage.setItem("popupShown", "true");
-
-/* close button */
-const closeBtn = popup.querySelector(".rep-close");
-
-if(closeBtn){
-closeBtn.addEventListener("click", () => {
-popup.style.display = "none";
+            // Close logic for clicking outside the content
+            window.addEventListener("click", (e) => {
+                if (e.target === popup) {
+                    popup.style.display = "none";
+                }
+            });
+        }, 3000); // 3 second delay for better UX
+    }
 });
-}
 
-/* outside click */
-popup.addEventListener("click", function(e){
-if(e.target === popup){
-popup.style.display = "none";
-}
-});
+/* ===========================
+   FINAL POPUP SYSTEM (FIXED)
+=========================== */
 
-}, 1500);
+// const popups = [
+// document.getElementById("repPopup"),
+// document.getElementById("coursePopup"),
+// document.getElementById("partnerPopup"),
+// document.getElementById("supportPopup")
+// ].filter(p => p !== null);
 
-}
+// /* show only once */
+
+// let popupShown = localStorage.getItem("popupShown");
+
+// if(!popupShown && popups.length > 0){
+
+// setTimeout(() => {
+
+// let popup = popups[Math.floor(Math.random() * popups.length)];
+
+// popup.style.display = "flex";
+
+// /* mark as shown */
+// localStorage.setItem("popupShown", "true");
+
+// /* close button */
+// const closeBtn = popup.querySelector(".rep-close");
+
+// if(closeBtn){
+// closeBtn.addEventListener("click", () => {
+// popup.style.display = "none";
+// });
+// }
+
+// /* outside click */
+// popup.addEventListener("click", function(e){
+// if(e.target === popup){
+// popup.style.display = "none";
+// }
+// });
+
+// }, 1500);
+
+// }
+
 // Course
 
 document.querySelectorAll(".topic").forEach(button => {

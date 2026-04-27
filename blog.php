@@ -18,7 +18,6 @@
 <div class="blog-grid">
 
 <?php
-$conn = new mysqli("localhost","root","","gyangen");
 
 $sql = "SELECT * FROM blogs ORDER BY created_at DESC LIMIT 6";
 $result = $conn->query($sql);

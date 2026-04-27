@@ -4,11 +4,7 @@
 <head>
 
 <title>GyanGen Technologies</title>
-<style>
-    html {
-        scroll-behavior: smooth;
-    }
-</style>
+
 <link rel="stylesheet" href="css/style.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
