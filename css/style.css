@@ -1315,11 +1315,13 @@ body.dark-mode .timeline-block::after {
     --text-main: #1a1a1a;        /* Deep Charcoal */
     --text-muted: #626262;       /* Slate Grey */
     --accent: #d4af37;           /* Metallic Gold */
-    --accent-soft: rgba(212, 175, 55, 0.08);
+    --accent-soft: rgba(212, 175, 55, 0.1);
     --tile-bg: #ffffff;
-    --tile-border: rgba(0, 0, 0, 0.04);
+    --tile-border: rgba(0, 0, 0, 0.05);
     --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.03);
     --shadow-premium: 0 20px 40px rgba(0, 0, 0, 0.06);
+    --stats-bg: #1a1a1a;        /* Dark band for stats */
+    --stats-text: #ffffff;
 }
 
 body.dark-mode {
@@ -1329,9 +1331,14 @@ body.dark-mode {
     --text-muted: #999999;
     --tile-bg: #161616;
     --tile-border: #222222;
-    --accent: #FFD700;           /* Brighter Gold for dark mode */
-    --accent-soft: rgba(255, 215, 0, 0.05);
-    --shadow: rgba(0, 0, 0, 0.4);
+    --accent: #FFD700;
+    --stats-bg: #1a1a1a;
+    --stats-text: #ffffff;
+}
+
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Apply variables to the body */
@@ -1339,9 +1346,6 @@ body {
     background-color: var(--bg-color);
     color: var(--text-main);
     transition: background 0.3s ease, color 0.3s ease;
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 /* 2. GLOBAL SECTION RESET (Fixes the "Huge Gap") */
@@ -2056,7 +2060,7 @@ body.dark-mode .about-section.alt-bg {
    MARKET ANALYSIS SECTION
    ========================================================================== */
 .market-analysis {
-    padding: 100px 8%;
+    padding: 100px 0;
     background-color: var(--section-alt);
 }
 
@@ -2064,14 +2068,14 @@ body.dark-mode .about-section.alt-bg {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 30px;
-    margin-bottom: 60px;
+    margin: 50px 0;
 }
 .analysis-card {
     background: var(--tile-bg);
     padding: 40px;
-    border-radius: 30px;
+    border-radius: 24px;
     border: 1px solid var(--tile-border);
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: 0.4s;
 }
 
 .analysis-card:hover {
@@ -2096,22 +2100,24 @@ body.dark-mode .about-section.alt-bg {
 /* THE STAT STRIP */
 .analysis-stats {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background: var(--text-main); /* Dark band for premium contrast */
-    padding: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background: var(--stats-bg);
+    padding: 60px 40px;
     border-radius: 40px;
     text-align: center;
+    color: var(--stats-text);
+    margin-top: 50px;
 }
 
 .stat-box h3 {
-    font-size: 48px;
+    font-size: 42px;
     color: var(--accent);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .stat-box p {
-    color: rgba(255,255,255,0.7);
     font-size: 14px;
-    max-width: 200px;
+    opacity: 0.8;
+    max-width: 220px;
     margin: 0 auto;
 }
 /* ==========================================================================
