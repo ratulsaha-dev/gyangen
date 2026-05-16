@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-
-<title>GyanGen Technologies</title>
-
-<link rel="stylesheet" href="css/style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-</head>
-
-<body>
+<?php include 'includes/header.php'; ?>
 
 <!-- SUPPORT COMMUNITY POPUP -->
 
@@ -268,11 +253,6 @@ Help students explore technology careers and grow your own leadership skills.
 </div>
 
 </div>
-<!-- HEADER -->
-
-<?php include 'includes/header.php'; ?>
-
-
 <!-- HERO SECTION -->
 
 <section class="hero">
@@ -926,9 +906,6 @@ View Details
 <!-- FOOTER -->
 
 <?php include 'includes/footer.php'; ?>
-
-
-<script src="js/script.js?v=2"></script>
 
 </body>
 </html>

@@ -1,8 +1,33 @@
 <?php include 'includes/header.php'; ?>
 
-<section class="courses">
+<section class="courses courses-page">
 
-<h2 class="section-title">Our Courses</h2>
+<div class="courses-hero-panel">
+
+<span class="course-eyebrow">Career-ready programs</span>
+
+<h1>Our Courses</h1>
+
+<p>
+Learn practical technology skills through structured online batches, guided projects,
+and mentor-led demo sessions designed for students and working professionals.
+</p>
+
+<div class="course-highlights">
+<span><i class="fas fa-laptop-code"></i> Live Online</span>
+<span><i class="fas fa-users"></i> Batch Size 30</span>
+<span><i class="fas fa-certificate"></i> Project Focused</span>
+</div>
+
+</div>
+
+<div class="course-toolbar">
+<div>
+<span class="course-count">5 programs</span>
+<h2 class="section-title">Choose Your Learning Track</h2>
+</div>
+<a href="register.php" class="course-toolbar-btn">Book a Demo</a>
+</div>
 
 <div class="course-grid">
 
@@ -24,8 +49,8 @@ Master Python for automation, backend development and data projects.
 </p>
 
 <div class="price-row">
-<span class="price">₹5999</span>
-<span class="old-price">₹8000</span>
+<span class="price">&#8377;5,999</span>
+<span class="old-price">&#8377;8,000</span>
 <span class="mode">Online</span>
 </div>
 
@@ -62,8 +87,8 @@ Learn Java programming, OOP concepts and backend development fundamentals.
 </p>
 
 <div class="price-row">
-<span class="price">₹6499</span>
-<span class="old-price">₹9000</span>
+<span class="price">&#8377;6,499</span>
+<span class="old-price">&#8377;9,000</span>
 <span class="mode">Online</span>
 </div>
 
@@ -100,8 +125,8 @@ Build modern websites using HTML, CSS, JavaScript and frontend tools.
 </p>
 
 <div class="price-row">
-<span class="price">₹5999</span>
-<span class="old-price">₹12000</span>
+<span class="price">&#8377;5,999</span>
+<span class="old-price">&#8377;12,000</span>
 <span class="mode">Online</span>
 </div>
 
@@ -138,8 +163,8 @@ Build AI-powered applications using LLMs and modern AI tools.
 </p>
 
 <div class="price-row">
-<span class="price">₹8999</span>
-<span class="old-price">₹15000</span>
+<span class="price">&#8377;8,999</span>
+<span class="old-price">&#8377;15,000</span>
 <span class="mode">Online</span>
 </div>
 
@@ -176,8 +201,8 @@ Learn C programming fundamentals including memory management and pointers.
 </p>
 
 <div class="price-row">
-<span class="price">₹4999</span>
-<span class="old-price">₹7000</span>
+<span class="price">&#8377;4,999</span>
+<span class="old-price">&#8377;7,000</span>
 <span class="mode">Online</span>
 </div>
 

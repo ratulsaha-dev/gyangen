@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(){
+function initHomepage(){
 
 /* ---------------------------
    HERO TEXT ANIMATION
@@ -122,7 +122,14 @@ toggleBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
 
 }
 
-});
+}
+
+if(document.readyState === "loading"){
+document.addEventListener("DOMContentLoaded", initHomepage);
+}
+else{
+initHomepage();
+}
 
 /* TIMELINE ANIMATION */
 

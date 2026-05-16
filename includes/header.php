@@ -1,3 +1,12 @@
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+session_start();
+}
+
+if(!isset($_SESSION['user_id']) && isset($_COOKIE['remember_user'])){
+$_SESSION['user_id'] = $_COOKIE['remember_user'];
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,12 +60,4 @@
 </div>
 
 </div>
-<?php
-session_start();
-
-if(!isset($_SESSION['user_id']) && isset($_COOKIE['remember_user'])){
-$_SESSION['user_id'] = $_COOKIE['remember_user'];
-}
-?>
-
 </header>
